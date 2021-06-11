@@ -29,3 +29,4 @@ The Core Team owns all the repositories related to the core-engine:
 # TOC
 
 - [Roadmaps](./roadmaps)
+- [Guides](./guides)
