@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/06cd71ec-35fb-41fc-9465-a2ae246e68d9/logo_img.svg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210414%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210414T143955Z&X-Amz-Expires=86400&X-Amz-Signature=fe399640c763a56540c7c9b3845d60fb28a4c5e92a12bc6d58894e268c9a9e9c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22logo_img.svg%22" alt="MeiliSearch" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="MeiliSearch logo" width="200" height="200" />
 </p>
 
 <h1 align="center">MeiliSearch Core Team</h1>
