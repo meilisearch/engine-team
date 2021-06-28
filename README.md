@@ -24,7 +24,8 @@ The Core Team owns all the repositories related to the core-engine:
 - [**MeiliSearch**](https://github.com/meilisearch/MeiliSearch): the main repository containing the current search engine.
 - [**Milli**](https://github.com/meilisearch/milli): the new search engine in development.
 - [**Transplant**](https://github.com/meilisearch/transplant): the temporary repository that integrates Milli as search engine. The final goal of Transplant code base is to be integrated into the MeiliSearch repository and will correspond to the v0.21.0 release.
-- [**Tokenizer**](https://github.com/meilisearch/Tokenizer/): the tokenizer used by the search engine (in MeiliSearch and in Milli)
+- [**Tokenizer**](https://github.com/meilisearch/tokenizer/): the tokenizer used by the search engine (in MeiliSearch and in Milli)
+- [**lmdb-rs**](https://github.com/meilisearch/lmdb-rs/): a fork of [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs)
 
 # TOC
 
