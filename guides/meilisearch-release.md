@@ -11,7 +11,7 @@ This allows:
 - the users to test the new version in advance
 - the core team to get feedback and bug reports before the official release
 
-## Pre-relaes week
+## Pre-release week
 
 ### How to create the first pre-release (RC)
 
