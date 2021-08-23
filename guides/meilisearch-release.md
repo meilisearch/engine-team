@@ -86,6 +86,7 @@ _The way to do it (command line of GitHub PR) has to be defined_
 The CIs will be triggered to:
 - upload binaries to the GitHub release.
 - publish the Docker images (`latest` and `vX.X.X`) to DockerHub.
+- publish binaries for Homebrew and APT
 
 ### After the release
 
