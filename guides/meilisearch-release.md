@@ -28,7 +28,7 @@ git pull origin main
 
 ```bash
 git checkout -b release-vX.X.X
-git push -u origin relesae-vX.X.X
+git push -u origin release-vX.X.X
 ```
 
 3. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/MeiliSearch/releases).
@@ -39,7 +39,7 @@ git push -u origin relesae-vX.X.X
 - the title of the release
 - the tag associated to the release: should be `vX.X.Xrc0`
 - ⚠️ the branch on which to push the tag: `release-vX.X.X`. Do not push the tag to `main`!
-- the description. Add as many details as possible: the PRs, the authors, the new usage, the external contributors we want to thank...
+- the description: add as many details as possible: the PRs, the authors, the new usage, the external contributors we want to thank...
 - ⚠️ the `This is a pre-release` check box
 
 ![GH release form](../assets/gh-pre-release.png)
