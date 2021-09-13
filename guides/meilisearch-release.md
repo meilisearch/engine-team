@@ -70,8 +70,9 @@ The steps are the same as for `How to create the first pre-release (RC)` but sta
 git checkout release-vX.X.X
 git pull origin release-vX.X.X
 git checkout stable
-git merge release-vX.X.X
 git pull origin stable
+git merge release-vX.X.X
+git push origin stable
 ```
 
 2. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/MeiliSearch/releases).
