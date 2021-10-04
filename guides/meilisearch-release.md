@@ -36,7 +36,7 @@ git push -u origin release-vX.X.X
 4. Click on the `Draft a new release` button
 
 5. Fill the form with:
-- the title of the release
+- the title of the release: `vX.X.Xrc0`
 - the tag associated to the release: should be `vX.X.Xrc0`
 - ⚠️ the branch on which to push the tag: `release-vX.X.X`. Do not push the tag to `main`!
 - the description: add as many details as possible: the PRs, the authors, the new usage, the external contributors we want to thank...
@@ -80,7 +80,7 @@ git push origin stable
 3. Click on the `Draft a new release` button
 
 4. Fill the form with:
-- the title of the release
+- the title of the release: `vX.X.X`
 - the tag associated to the release: should be `vX.X.X`
 - ⚠️ the branch on which to push the tag: `stable`. Do not push the tag to `main`!
 - the description. Add as many details as possible: the PRs, the authors, new usage examples, the external contributors we want to thank...
