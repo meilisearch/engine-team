@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="MeiliSearch logo" width="200" height="200" />
+  <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch logo" width="200" height="200" />
 </p>
 
-<h1 align="center">MeiliSearch Core Team</h1>
+<h1 align="center">Meilisearch Core Team</h1>
 <h5 align="center">This repository is the central reference for developing and maintaining the core team repositories.</h5>
 
 <h4 align="center">
-  <a href="https://github.com/meilisearch/MeiliSearch">MeiliSearch</a> |
+  <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
   <a href="https://docs.meilisearch.com">Documentation</a> |
   <a href="https://slack.meilisearch.com">Slack</a> |
   <a href="https://www.meilisearch.com">Website</a> |
@@ -17,13 +17,13 @@
 </h4>
 
 <p align="center">
-  <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-MeiliSearch-blue.svg?logo=slack" alt="Slack"></a>
+  <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-meilisearch-blue.svg?logo=slack" alt="Slack"></a>
 </p>
 
 The Core Team owns all the repositories related to the core-engine:
-- [**MeiliSearch**](https://github.com/meilisearch/MeiliSearch): the main repository containing the current search engine.
+- [**Meilisearch**](https://github.com/meilisearch/meilisearch): the main repository containing the current search engine.
 - [**Milli**](https://github.com/meilisearch/milli): the new search engine in development.
-- [**Tokenizer**](https://github.com/meilisearch/tokenizer/): the tokenizer used by the search engine (in MeiliSearch and in Milli)
+- [**Tokenizer**](https://github.com/meilisearch/tokenizer/): the tokenizer used by the search engine (in Meilisearch and in Milli)
 - [**lmdb-rs**](https://github.com/meilisearch/lmdb-rs/): a fork of [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs)
 - [**lmdb**](https://github.com/meilisearch/lmdb): a fork of [LMDB/lmdb](https://github.com/LMDB/lmdb)
 - [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch
