@@ -17,7 +17,7 @@
 </h4>
 
 <p align="center">
-  <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-meilisearch-blue.svg?logo=slack" alt="Slack"></a>
+  <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-Meilisearch-blue.svg?logo=slack" alt="Slack"></a>
 </p>
 
 The Core Team owns all the repositories related to the core-engine:
