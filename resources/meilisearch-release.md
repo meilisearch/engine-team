@@ -1,6 +1,6 @@
-# MeiliSearch Releases
+# Meilisearch Releases
 
-This guide is to describe how to make relases and pre-releases for the [MeiliSearch repository](https://github.com/meilisearch/MeiliSearch).
+This guide is to describe how to make relases and pre-releases for the [Meilisearch repository](https://github.com/meilisearch/meilisearch).
 
 In the core team, a sprint lasts 4 weeks.
 
@@ -15,7 +15,7 @@ This allows:
 
 ### How to create the first pre-release (RC)
 
-In the MeiliSearch repository:
+In the Meilisearch repository:
 
 1. Make sure you are on the `main` branch and pull the last commits:
 
@@ -31,7 +31,7 @@ git checkout -b release-vX.X.X
 git push -u origin release-vX.X.X
 ```
 
-3. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/MeiliSearch/releases).
+3. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
 
 4. Click on the `Draft a new release` button
 
@@ -75,7 +75,7 @@ git merge release-vX.X.X
 git push origin stable
 ```
 
-2. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/MeiliSearch/releases).
+2. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
 
 3. Click on the `Draft a new release` button
 
