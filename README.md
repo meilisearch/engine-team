@@ -24,6 +24,7 @@ The Core Team owns all the repositories related to the core-engine:
 - [**Meilisearch**](https://github.com/meilisearch/meilisearch): the main repository containing the current search engine.
 - [**Milli**](https://github.com/meilisearch/milli): the new search engine in development.
 - [**Tokenizer**](https://github.com/meilisearch/tokenizer/): the tokenizer used by the search engine (in Meilisearch and in Milli)
+- [**Grenad**](https://github.com/meilisearch/grenad): tools to sort, merge, write, and read immutable key-value pairs
 - [**lmdb-rs**](https://github.com/meilisearch/lmdb-rs/): a fork of [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs)
 - [**lmdb**](https://github.com/meilisearch/lmdb): a fork of [LMDB/lmdb](https://github.com/LMDB/lmdb)
 - [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch
