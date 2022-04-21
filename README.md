@@ -29,6 +29,12 @@ The Core Team owns all the repositories related to the core-engine:
 - [**lmdb-rs**](https://github.com/meilisearch/lmdb-rs/): a fork of [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs)
 - [**lmdb**](https://github.com/meilisearch/lmdb): a fork of [LMDB/lmdb](https://github.com/LMDB/lmdb)
 - [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch
+- [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch
+
+Misc:
+- [cargo-flaky](https://github.com/meilisearch/cargo-flaky): cargo extension to help you find flaky tests in you test suite. Used in the [Meilisearch CI](https://github.com/meilisearch/meilisearch/actions/workflows/flaky.yml) every week.
+- [Nelson](https://github.com/meilisearch/nelson/): small mocking library for Rust. Used in the Meilisearch test suite.
+- [Madness](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
 
 Archived repositories:
 - [**Transplant**](https://github.com/meilisearch/transplant): the temporary repository that integrates Milli as search engine. The final goal of Transplant code base is to be integrated into the MeiliSearch repository and will correspond to the v0.21.0 release.
