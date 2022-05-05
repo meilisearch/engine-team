@@ -35,7 +35,10 @@ Misc:
 
 - [cargo-flaky](https://github.com/meilisearch/cargo-flaky): cargo extension to help you find flaky tests in you test suite. Used in the [Meilisearch CI](https://github.com/meilisearch/meilisearch/actions/workflows/flaky.yml) every week.
 - [Nelson](https://github.com/meilisearch/nelson/): small mocking library for Rust. Used in the Meilisearch test suite.
+- [Jayson](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
 - [Madness](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
+- [Devspector](https://github.com/meilisearch/devspector): website using Meilisearch to search into the specification repository, on the [`develop` branch](https://github.com/meilisearch/specifications/tree/develop).
+- [Mainspector](https://github.com/meilisearch/devspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications).
 
 Archived repositories:
 
