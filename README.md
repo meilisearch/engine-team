@@ -37,8 +37,8 @@ Misc:
 - [Nelson](https://github.com/meilisearch/nelson/): small mocking library for Rust. Used in the Meilisearch test suite.
 - [Jayson](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
 - [Madness](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
-- [Devspector](https://github.com/meilisearch/devspector): website using Meilisearch to search into the specification repository, on the [`develop` branch](https://github.com/meilisearch/specifications/tree/develop).
-- [Mainspector](https://github.com/meilisearch/devspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications).
+- [Devspector](https://github.com/meilisearch/devspector): website using Meilisearch to search into the specification repository, on the [`develop` branch](https://github.com/meilisearch/specifications/tree/develop). Visit [this website](https://specs.meilisearch.dev/).
+- [Mainspector](https://github.com/meilisearch/devspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
 
 Archived repositories:
 
