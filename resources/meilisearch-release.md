@@ -11,7 +11,7 @@ This allows:
 - the users to test the new version in advance
 - the core team to get feedback and bug reports before the official release
 
-## Meilisearch release process
+## 🛥️ Meilisearch release process
 
 ### How to create the first pre-release (RC)
 
@@ -115,6 +115,8 @@ git push -u origin release-vX.X.X
 
 3. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
 
-## Other library release process
+4. Same as the official release, bring the new commits back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
+
+## 🎈 Other library release process
 
 The release process of other repositories maintained by the core team is described in the corresponding CONTRIBUTING.md of each repository.
