@@ -1,4 +1,4 @@
-# Meilisearch Releases
+# Releases
 
 This guide is to describe how to make relases and pre-releases for the [Meilisearch repository](https://github.com/meilisearch/meilisearch).
 
@@ -11,7 +11,7 @@ This allows:
 - the users to test the new version in advance
 - the core team to get feedback and bug reports before the official release
 
-## Pre-release week
+## Meilisearch release process
 
 ### How to create the first pre-release (RC)
 
@@ -61,7 +61,7 @@ The CIs will be triggered to:
 When all/enough hotfixes have been done to the `release-vX.X.X` branch, create a new RC.
 The steps are the same as for `How to create the first pre-release (RC)` but starting from the step 3 and with the new RC name.
 
-## The official release
+## Meilisearch official release
 
 ### How to do the official release
 
@@ -98,3 +98,23 @@ The CIs will be triggered to:
 
 Some commits might miss to `main` since the core-team did some hotfixes merged to the `release-vX.X.X` branch.
 You need to bring them back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
+
+### How to do patched release (following hotfixes)
+
+It happens some releases come with impactful bugs in production (e.g. indexation or search issues): we obviously don't wait for the next cycle to fix them and we release a patched version of Meilisearch.
+
+1. Create a new release branch starting from `stable`
+
+```bash
+git checkout stable; git pull origin stable
+git checkout -b release-vX.X.X
+git push -u origin release-vX.X.X
+```
+
+2. Open and merge the PR originating `release-vX.X.X` and pointing to `release-vX.X.X`. Don't forget to change the version name in `Cargo.toml` files!
+
+3. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
+
+## Other library release process
+
+The release process of other repositories maintained by the core team is described in the corresponding CONTRIBUTING.md of each repository.
