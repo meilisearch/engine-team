@@ -111,7 +111,7 @@ git checkout -b release-vX.X.X
 git push -u origin release-vX.X.X
 ```
 
-2. Open and merge the PRs (fixing your bugs) originating `release-vX.X.X` and pointing to `release-vX.X.X`. Don't forget to change the version name in `Cargo.toml` files!
+2. Open and merge the PRs (fixing your bugs): they should point to `release-vX.X.X`. Don't forget to change the version name in `Cargo.toml` files!
 
 3. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
 
