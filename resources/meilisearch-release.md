@@ -12,7 +12,7 @@ At the end of the pre-release phase, the official release is published.
 
 ## 🏋️‍♂️ Meilisearch pre-release phase
 
-### How to create the first pre-release (RC)
+### How to create the first pre-release (or RC i.e. Release Candidate)
 
 In the Meilisearch repository:
 
@@ -58,7 +58,7 @@ The CIs will be triggered to:
 ### How to release the next RCs
 
 When all/enough hotfixes have been done to the `release-vX.X.X` branch, create a new RC.
-The steps are the same as for `How to create the first pre-release (RC)` but starting from the step 3 and with the new RC name.
+The steps are the same as for `How to create the first pre-release (or RC i.e. Release Candidate)` but starting from the step 3 and with the new RC name.
 
 ## 🔥 Meilisearch official release
 
