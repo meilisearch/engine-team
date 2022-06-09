@@ -1,17 +1,16 @@
-# Releases
+# Meilisearch release process
 
-This guide is to describe how to make relases and pre-releases for the [Meilisearch repository](https://github.com/meilisearch/meilisearch).
+This guide is to describe how to make releases and pre-releases for the [Meilisearch repository](https://github.com/meilisearch/meilisearch).
 
-In the core team, a sprint lasts 4 weeks.
+The Meilisearch release cycles last 8 weeks
+- 4 weeks of implementation phase: the core team implements all the planned issues.
+- 4 weeks of pre-release phase: the core team fixes the bugs introduced during the implementation phase. Integration and documentation teams update their scope according to the changes.
 
-At the begining of the last week, the pre-release week starts: during this week, one or several pre-releases (RC e.g. Release Candidate) are released.
-This allows:
-- the integration team to update the integrations accordingly
-- the docs team to finalize the documentation
-- the users to test the new version in advance
-- the core team to get feedback and bug reports before the official release
+At the beginning of the pre-release phase, the first RC is released. Other RC will be done if bugs are found.
 
-## 🛥️ Meilisearch release process
+At the end of the pre-release phase, the official release is published.
+
+## 🏋️‍♂️ Meilisearch pre-release phase
 
 ### How to create the first pre-release (RC)
 
@@ -61,7 +60,7 @@ The CIs will be triggered to:
 When all/enough hotfixes have been done to the `release-vX.X.X` branch, create a new RC.
 The steps are the same as for `How to create the first pre-release (RC)` but starting from the step 3 and with the new RC name.
 
-## Meilisearch official release
+## 🔥 Meilisearch official release
 
 ### How to do the official release
 
