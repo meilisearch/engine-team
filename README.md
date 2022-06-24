@@ -20,7 +20,7 @@
   <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-Meilisearch-blue.svg?logo=slack" alt="Slack"></a>
 </p>
 
-The Core Team owns all the repositories related to the core-engine:
+The core team owns all the repositories related to the core-engine:
 
 - [**Meilisearch**](https://github.com/meilisearch/meilisearch): the main repository containing the current search engine.
 - [**Milli**](https://github.com/meilisearch/milli): the new search engine in development.
@@ -30,15 +30,19 @@ The Core Team owns all the repositories related to the core-engine:
 - [**lmdb-rs**](https://github.com/meilisearch/lmdb-rs/): a fork of [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs).
 - [**lmdb**](https://github.com/meilisearch/lmdb): a fork of [LMDB/lmdb](https://github.com/LMDB/lmdb).
 - [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch.
+- [**Jayson**](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
+
+For testing:
+
+- [**cargo-flaky**](https://github.com/meilisearch/cargo-flaky): cargo extension to help you find flaky tests in you test suite. Used in the [Meilisearch CI](https://github.com/meilisearch/meilisearch/actions/workflows/flaky.yml) every week.
+- [**Nelson**](https://github.com/meilisearch/nelson/): small mocking library for Rust. Used in the Meilisearch test suite.
+- [**Yaup**](https://github.com/meilisearch/yaup/): a fork of [`serde_url_params`](https://github.com/boxdot/serde-url-params-rs) for `GET /search` tests.
 
 Misc:
 
-- [cargo-flaky](https://github.com/meilisearch/cargo-flaky): cargo extension to help you find flaky tests in you test suite. Used in the [Meilisearch CI](https://github.com/meilisearch/meilisearch/actions/workflows/flaky.yml) every week.
-- [Nelson](https://github.com/meilisearch/nelson/): small mocking library for Rust. Used in the Meilisearch test suite.
-- [Jayson](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
+- [**Devspector**](https://github.com/meilisearch/devspector): website using Meilisearch to search into the specification repository, on the [`develop` branch](https://github.com/meilisearch/specifications/tree/develop). Visit [this website](https://specs.meilisearch.dev/).
+- [**Mainspector**](https://github.com/meilisearch/devspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
 - [Madness](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
-- [Devspector](https://github.com/meilisearch/devspector): website using Meilisearch to search into the specification repository, on the [`develop` branch](https://github.com/meilisearch/specifications/tree/develop). Visit [this website](https://specs.meilisearch.dev/).
-- [Mainspector](https://github.com/meilisearch/devspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
 
 Archived repositories:
 
@@ -47,3 +51,4 @@ Archived repositories:
 # TOC
 
 - [Roadmaps](./roadmaps)
+- [Resources](./resources)
