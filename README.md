@@ -44,6 +44,7 @@ Misc:
 - [**Mainspector**](https://github.com/meilisearch/devspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
 - [**Madness**](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
 - [**ansible-vm-benchmarks**](https://github.com/meilisearch/ansible-vm-benchmarks): an Ansible Playbook to index datasets on several typology of Instance on a specific Meilisearch version/commit
+- [**segseg**](https://github.com/meilisearch/segseg): a POC of a segment based search engine
 
 Archived repositories:
 
