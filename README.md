@@ -48,7 +48,10 @@ Misc:
 Archived repositories:
 
 - [**Transplant**](https://github.com/meilisearch/transplant): the temporary repository that integrates Milli as search engine. The final goal of Transplant code base is to be integrated into the MeiliSearch repository and will correspond to the v0.21.0 release.
-- [**Meilipod**](https://github.com/meilisearch/meilipod): an HA POC for Meilisearch
+- Raft work that has been archived
+  - [**Meilipod**](https://github.com/meilisearch/meilipod) (private only)
+  - [**Raft**](https://github.com/meilisearch/raft) (private only)
+  - [**raft-metrics**](https://github.com/meilisearch/raft-metrics) (private only)
 
 # TOC
 
