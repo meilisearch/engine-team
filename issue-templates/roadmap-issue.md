@@ -2,8 +2,8 @@ The purpose of this roadmap is to let anyone know about the different steps in t
 
 # Draft phase (weeks 1-4)
 
-Start: 20XX-XX-XX
-End: 20XX-XX-XX
+Starts: 20XX-XX-XX
+Ends: 20XX-XX-XX
 
 - [ ] The core manager open a new Milestones. This will automatically create this roadmap issue. The core manager pins this roadmap issue and updates the different dates in the issue description.
 - [ ] Planification of the next release content (features, improvements, bug fixes). Meeting with the whole core team to discuss and agree on what we are going to put in the next release.
@@ -15,8 +15,8 @@ End: 20XX-XX-XX
 
 # Implementation phase (weeks 5-11)
 
-Start: 20XX-XX-XX
-End: 20XX-XX-XX
+Starts: 20XX-XX-XX
+Ends: 20XX-XX-XX
 
 - [ ] The core manager posts a summary of the release dates on #ms-releases (internal  Slack), links the milestones, and gives an overview of the main features.
 - [ ] At the beginning of the Implementation Phase, sync meeting with all open-source team managers about the current implemented release.
@@ -32,8 +32,8 @@ End: 20XX-XX-XX
 
 # Pre-release phase (weeks 12-15)
 
-Start: 20XX-XX-XX
-End: 20XX-XX-XX
+Starts: 20XX-XX-XX
+Ends: 20XX-XX-XX
 
 - [ ] Core team releases the first RC (release candidate) using the prepared changelogs.
 - [ ] At the beginning of the Pre-release Phase, sync meeting with each manager of the open-source teams about the coming release. It’s an opportunity to plan and identify the parts where sync will be needed between the different teams during the Pre-release Phase.
