@@ -1,4 +1,4 @@
-The purpose of this roadmap is to let anyone know about the different steps in the Meilisearch release.
+The purpose of this roadmap is to let anyone know about the different steps in the future Meilisearch release: `<<version>>`.
 
 # Draft phase (weeks 1-4)
 
