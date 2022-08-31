@@ -5,7 +5,7 @@ The purpose of this roadmap is to let anyone know about the different steps in t
 Start: 20XX-XX-XX
 End: 20XX-XX-XX
 
-- [ ] The core manager open a new Milestones. This will automatically create this roadmap issue. The core manager has to update the different dates in this issue.
+- [ ] The core manager open a new Milestones. This will automatically create this roadmap issue. The core manager pins this roadmap issue and updates the different dates in the issue description.
 - [ ] Planification of the next release content (features, improvements, bug fixes). Meeting with the whole core team to discuss and agree on what we are going to put in the next release.
 - [ ] The core manager quickly shares the next release plan on #ms-release (internal Slack). It’s for information at this stage, no team can start working since no PRD/specs are available.
 - [ ] The PM starts to work on the next feature: write PRD (Product Requirement Documents), organize working groups and product squad works... This might involve discussions with the technical teams and some prototype implementations.
@@ -55,6 +55,7 @@ Release date: 20XX-XX-XX
 - [ ] Release of all the updated integrations by the integration team
 - [ ] DevRel team takes care of external communications (blog, socials, etc) but might want for the documentation and the assets of the release to be ready (including Docker image)
 - [ ] Bring changes from `stable` branch of Meilisearch into the `main` branch
-- [ ] Create a label `vX.Y.Z` (version of the release) and tag it to all the issues/PRs of the Milestones.
 - [ ] Close every part relating to the release in the [product repository](https://github.com/meilisearch/product/): discussions, issues, PRs of the specs are merged...
+- [ ] Tag all the PRs/issues in the Milestones with the `<<vesrion>>` label.
+- [ ] Unpin this current rodamap issue.
 - [ ] Close the release Milestones.
