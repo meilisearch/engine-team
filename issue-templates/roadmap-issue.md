@@ -10,7 +10,7 @@ Ends: 20XX-XX-XX
 - [ ] The core manager quickly shares the next release plan on #ms-release (internal Slack). It’s for information at this stage, no team can start working since no PRD/specs are available.
 - [ ] The PM starts to work on the next feature: write PRD (Product Requirement Documents), organize working groups and product squad works... This might involve discussions with the technical teams and some prototype implementations.
 - [ ] At the middle/end of the Draft phase, the PM and the core manager review together and agree on a firm version of the next release plan. Nothing is strongly definitive, the main goal is to provide a list of tasks ordered by prioritization.
-- [ ] The core manager opens issues to add them to the [Milestone](https://github.com/curquiza/meilisearch/milestone/<<milestone_id>>). Issues related to bugs could also be added to the [Milestone](https://github.com/curquiza/meilisearch/milestone/<<milestone_id>>).
+- [ ] The core manager opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>). Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
 - [ ] The PM provides the firm version of the PRDs, which means the developers have enough information to make the implementation phase begin.
 
 # Implementation phase (weeks 5-11)
@@ -18,7 +18,7 @@ Ends: 20XX-XX-XX
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
-- [ ] The core manager posts a summary of the release dates on #ms-releases (internal  Slack), links the [Milestone](https://github.com/curquiza/meilisearch/milestone/<<milestone_id>>), and gives an overview of the main features.
+- [ ] The core manager posts a summary of the release dates on #ms-releases (internal  Slack), links the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>), and gives an overview of the main features.
 - [ ] At the beginning of the Implementation Phase, sync meeting with all open-source team managers about the current implemented release.
 - [ ] Core team implements the planned content of the release according to the PRD. The code changes are merged into the `main` branch. If needed, prototypes will be shared with the users. According to their feedback, we might apply changes to the related feature.
 - [ ] The specifications are written: they are useful to officialize the definitive "shape" of the feature. However, feedback and request for changes on the spec can still happen and lead to changes in the related feature.
@@ -28,7 +28,7 @@ Ends: 20XX-XX-XX
 - [ ] Docs team organizes their preparation: identify the effect of new changes on the documentation: discussion phase and planning.
 - [ ] Docs team creates the related issues in the [documentation repository](https://github.com/meilisearch/documentation/) and open the central draft PR for related to the release.
 - [ ] Integration team opens a central issue on [integration-guides](https://github.com/meilisearch/integration-guides) gathering all the release changes that will impact the integration team and how they will handle them. They also open draft branches in every repository to update the integrations with the new version of Meilisearch.
-- [ ] At the end of the Implementation Phase, all the issues related to the [Milestone](https://github.com/curquiza/meilisearch/milestone/<<milestone_id>>) are solved, meaning every implementation has been merged into `main`. If something differs from the original plan, the core manager should inform the other teams on #ms-releases (internal Slack).
+- [ ] At the end of the Implementation Phase, all the issues related to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) are solved, meaning every implementation has been merged into `main`. If something differs from the original plan, the core manager should inform the other teams on #ms-releases (internal Slack).
 
 # Pre-release phase (weeks 12-15)
 
@@ -56,6 +56,6 @@ Release date: 20XX-XX-XX
 - [ ] DevRel team takes care of external communications (blog, socials, etc) but might want for the documentation and the assets of the release to be ready (including Docker image)
 - [ ] Bring changes from `stable` branch of Meilisearch into the `main` branch
 - [ ] Close every part relating to the release in the [product repository](https://github.com/meilisearch/product/): discussions, issues, PRs of the specs are merged...
-- [ ] Tag all the PRs/issues in the [Milestone](https://github.com/curquiza/meilisearch/milestone/<<milestone_id>>) with the `<<version>>` label.
+- [ ] Tag all the PRs/issues in the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) with the `<<version>>` label.
 - [ ] Unpin this current rodamap issue.
-- [ ] Close the release [Milestone](https://github.com/curquiza/meilisearch/milestone/<<milestone_id>>).
+- [ ] Close the release [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
