@@ -5,7 +5,7 @@ The purpose of this roadmap is to let anyone know about the different steps in t
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
-- [ ] The core manager open a new Milestone.
+- [ ] The core manager creates a new Milestone.
 - [ ] In the Milestone, the core manager add the release date, but also the pre-release phase dates, and the sprint dates to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
 - [ ] A roadmap issue will automatically created. The core manager pins this roadmap issue and updates the different dates in the issue description.
 - [ ] Planification of the next release content (features, improvements, bug fixes). Meeting with the whole core team to discuss and agree on what we are going to put in the next release.
