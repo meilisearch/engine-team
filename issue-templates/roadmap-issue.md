@@ -15,7 +15,7 @@ Ends: 20XX-XX-XX
 - [ ] The core manager opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>). Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
 - [ ] The PM provides the firm version of the PRDs, which means the developers have enough information to make the implementation phase begin.
 
-# Implementation phase (weeks 5-11)
+# Implementation phase (weeks 5-8)
 
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
@@ -32,7 +32,7 @@ Ends: 20XX-XX-XX
 - [ ] Integration team opens a central issue on [integration-guides](https://github.com/meilisearch/integration-guides) gathering all the release changes that will impact the integration team and how they will handle them. They also open draft branches in every repository to update the integrations with the new version of Meilisearch.
 - [ ] At the end of the Implementation Phase, all the issues related to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) are solved, meaning every implementation has been merged into `main`. If something differs from the original plan, the core manager should inform the other teams on #ms-releases (internal Slack).
 
-# Pre-release phase (weeks 12-15)
+# Pre-release phase (weeks 9-12)
 
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
@@ -49,7 +49,7 @@ Ends: 20XX-XX-XX
 - [ ] Integration team confirms the latest RC (so at the end of the Pre-release Phase) works with their DevOps tools
 - [ ] Integration team shares with the core manager which SDKs and integrations will be ready or not to be compatible with the next Meilisearch version by the release day. Core manager adapts the changelogs accordingly.
 
-# Release phase (week 16)
+# Release phase (week 12)
 
 Release date: 20XX-XX-XX
 
