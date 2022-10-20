@@ -49,7 +49,7 @@ Ends: 20XX-XX-XX
 - [ ] Integration team confirms the latest RC (so at the end of the Pre-release Phase) works with their DevOps tools
 - [ ] Integration team shares with the core manager which SDKs and integrations will be ready or not to be compatible with the next Meilisearch version by the release day. Core manager adapts the changelogs accordingly.
 
-# Release phase (week 12)
+# Release phase (week 13)
 
 Release date: 20XX-XX-XX
 
