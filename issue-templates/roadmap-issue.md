@@ -43,10 +43,11 @@ Ends: 20XX-XX-XX
 - [ ] At the beginning of the Pre-release Phase, the PM and core manager communicate (on Slack and issues) about the RC to encourage people to test them.
 - [ ] Integrations team updates the SDKs and their integrations according to the new release.
 - [ ] Docs team updates the documentation to reflect the changes of the new release.
-- [ ] According to feedback and bug reports from the integrations and the docs teams, the core team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
+- [ ] According to feedback and bug reports, the core team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
 - [ ] DevRel team write a blog post “What’s new in <<version>>?”.
 - [ ] The core manager, the PM, and the docs team review the blog post.
 - [ ] Integration team confirms the latest RC (so at the end of the Pre-release Phase) works with their DevOps tools
+- [ ] Integration team shares with the core manager which SDKs and integrations will be ready or not to be compatible with the next Meilisearch version by the release day. Core manager adapts the changelogs accordingly.
 
 # Release phase (week 16)
 
