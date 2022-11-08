@@ -16,25 +16,27 @@ At the end of the pre-release phase, the official release is published.
 
 In the Meilisearch repository:
 
-1. Make sure you are on the `main` branch and pull the last commits:
+1. Ensure the version of Meilisearch in the `Cargo.toml` files has been updated. Use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
+
+2. Make sure you are on the `main` branch and pull the last commits:
 
 ```bash
 git checkout main
 git pull origin main
 ```
 
-2. Create a release branch named `release-vX.X.X` where `X.X.X` is the new version and push this branch
+3. Create a release branch named `release-vX.X.X` where `X.X.X` is the new version and push this branch
 
 ```bash
 git checkout -b release-vX.X.X
 git push -u origin release-vX.X.X
 ```
 
-3. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
+4. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
 
-4. Click on the `Draft a new release` button
+5. Click on the `Draft a new release` button
 
-5. Fill the form with:
+6. Fill the form with:
 - the title of the release: `vX.X.Xrc0`
 - the tag associated to the release: should be `vX.X.Xrc0`
 - ⚠️ the branch on which to push the tag: `release-vX.X.X`. Do not push the tag to `main`!
@@ -43,7 +45,7 @@ git push -u origin release-vX.X.X
 
 ![GH release form](../assets/gh-pre-release.png)
 
-6. Finally, when you are sure, click on the `Publish release` button.
+7. Finally, when you are sure, click on the `Publish release` button.
 
 The CIs will be triggered to:
 - upload binaries to the GitHub RC.
@@ -110,7 +112,7 @@ git checkout -b release-vX.X.X
 git push -u origin release-vX.X.X
 ```
 
-2. Open and merge the PRs (fixing your bugs): they should point to `release-vX.X.X`. Don't forget to change the version name in `Cargo.toml` files!
+2. Open and merge the PRs (fixing your bugs): they should point to `release-vX.X.X`. Don't forget to change the version name in `Cargo.toml` files! You can use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
 
 3. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
 
