@@ -39,7 +39,6 @@ Ends: 20XX-XX-XX
 
 - [ ] Core team releases the first RC (release candidate) using the prepared changelogs.
 - [ ] At the beginning of the Pre-release Phase, sync meeting with each manager of the open-source teams about the coming release. It’s an opportunity to plan and identify the parts where sync will be needed between the different teams during the Pre-release Phase.
-- [ ] At the beginning of the Pre-release Phase, the core manager shares the important changes to highlight in the release blog post to the DevRel team.
 - [ ] At the beginning of the Pre-release Phase, the PM and core manager communicate (on Slack and issues) about the RC to encourage people to test them.
 - [ ] Integrations team updates the SDKs and their integrations according to the new release.
 - [ ] Docs team updates the documentation to reflect the changes of the new release.
