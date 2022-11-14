@@ -16,7 +16,9 @@ At the end of the pre-release phase, the official release is published.
 
 In the Meilisearch repository:
 
-1. Ensure the version of Meilisearch in the `Cargo.toml` files has been updated. Use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
+1. Ensure:
+- the version of Meilisearch in the `Cargo.toml` files has been updated. Use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
+- A [GitHub Milestone](https://github.com/meilisearch/meilisearch/milestones) has been opened for this new version.
 
 2. Make sure you are on the `main` branch and pull the last commits:
 
@@ -112,11 +114,13 @@ git checkout -b release-vX.X.X
 git push -u origin release-vX.X.X
 ```
 
-2. Open and merge the PRs (fixing your bugs): they should point to `release-vX.X.X`. Don't forget to change the version name in `Cargo.toml` files! You can use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
+2. Open a [new GitHub Milestone `vX.X.X`](https://github.com/meilisearch/meilisearch/milestones) related to this new version.
 
-3. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
+3. Open and merge the PRs (fixing your bugs): they should point to `release-vX.X.X`. Don't forget to change the version name in `Cargo.toml` files! You can use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
 
-4. Same as the official release, bring the new commits back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
+4. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
+
+5. Same as the official release, bring the new commits back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
 
 ## 🎈 Other library release process
 
