@@ -87,6 +87,7 @@ git push origin stable
 - the tag associated to the release: should be `vX.X.X`
 - ⚠️ the branch on which to push the tag: `stable`. Do not push the tag to `main`!
 - the description. Add as many details as possible: the PRs, the authors, new usage examples, the external contributors we want to thank...
+- check the `Set as the latest release`
 
 ![GH release form](../assets/gh-release.png)
 
