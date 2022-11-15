@@ -120,7 +120,7 @@ git push -u origin release-vX.X.X
 
 4. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
 
-5. Same as the official release, bring the new commits back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
+5. Same as the official release, if needed, bring the new commits back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
 
 ## 🎈 Other library release process
 
