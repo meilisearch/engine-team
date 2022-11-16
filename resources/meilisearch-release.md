@@ -3,8 +3,8 @@
 This guide is to describe how to make releases and pre-releases for the [Meilisearch repository](https://github.com/meilisearch/meilisearch).
 
 The Meilisearch release cycles last 8 weeks
-- 4 weeks of implementation phase: the core team implements all the planned issues.
-- 4 weeks of pre-release phase: the core team fixes the bugs introduced during the implementation phase. Integration and documentation teams update their scope according to the changes.
+- 4 weeks of implementation phase: the engine team implements all the planned issues.
+- 4 weeks of pre-release phase: the engine team fixes the bugs introduced during the implementation phase. Integration and documentation teams update their scope according to the changes.
 
 At the beginning of the pre-release phase, the first RC is released. Other RC will be done if bugs are found.
 
@@ -100,7 +100,7 @@ The CIs will be triggered to:
 
 ### After the release
 
-Some commits might miss to `main` since the core-team did some hotfixes merged to the `release-vX.X.X` branch.
+Some commits might miss to `main` since the engine-team did some hotfixes merged to the `release-vX.X.X` branch.
 You need to bring them back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
 
 ### How to do patched release (following hotfixes)
@@ -125,4 +125,4 @@ git push -u origin release-vX.X.X
 
 ## 🎈 Other library release process
 
-The release process of other repositories maintained by the core team is described in the corresponding CONTRIBUTING.md of each repository.
+The release process of other repositories maintained by the engine team is described in the corresponding CONTRIBUTING.md of each repository.
