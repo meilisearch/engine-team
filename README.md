@@ -2,8 +2,8 @@
   <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch logo" width="200" height="200" />
 </p>
 
-<h1 align="center">Meilisearch Core Team</h1>
-<h5 align="center">This repository is the central reference for developing and maintaining the core team repositories.</h5>
+<h1 align="center">Meilisearch Engine Team</h1>
+<h5 align="center">This repository is the central reference for developing and maintaining the engine team repositories.</h5>
 
 <h4 align="center">
   <a href="https://github.com/meilisearch/meilisearch">Meilisearch</a> |
@@ -20,7 +20,7 @@
   <a href="https://slack.meilisearch.com"><img src="https://img.shields.io/badge/slack-Meilisearch-blue.svg?logo=slack" alt="Slack"></a>
 </p>
 
-The core team owns all the repositories related to the core-engine:
+The engine team owns all the repositories related to the engine-engine:
 
 - [**Meilisearch**](https://github.com/meilisearch/meilisearch): the main repository containing the current search engine.
 - [**Milli**](https://github.com/meilisearch/milli): the new search engine in development.
