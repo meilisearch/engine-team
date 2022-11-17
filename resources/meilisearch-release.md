@@ -62,7 +62,7 @@ The CIs will be triggered to:
 ### How to release the next RCs
 
 When all/enough hotfixes have been done to the `release-vX.X.X` branch, create a new RC.
-The steps are the same as for `How to create the first pre-release (or RC i.e. Release Candidate)` but starting from the step 3 and with the new RC name.
+The steps are the same as for `How to create the first pre-release (or RC i.e. Release Candidate)` but starting from the step 4 and with the new RC name.
 
 ## 🔥 Meilisearch official release
 
