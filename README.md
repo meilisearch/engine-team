@@ -45,6 +45,7 @@ Misc:
 - [**Madness**](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
 - [**ansible-vm-benchmarks**](https://github.com/meilisearch/ansible-vm-benchmarks): an Ansible Playbook to index datasets on several typology of Instance on a specific Meilisearch version/commit
 - [**segseg**](https://github.com/meilisearch/segseg): a POC of a segment based search engine
+- [**meili-aoc**](https://github.com/meilisearch/meili-aoc): Advent of Code repository
 
 Archived repositories:
 
