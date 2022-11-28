@@ -58,6 +58,5 @@ Release date: 20XX-XX-XX
 - [ ] DevRel team takes care of external communications (blog, socials, etc) but might want for the documentation and the assets of the release to be ready (including Docker image)
 - [ ] Bring changes from `stable` branch of Meilisearch into the `main` branch
 - [ ] Close every part relating to the release in the [product repository](https://github.com/meilisearch/product/): discussions, issues, PRs of the specs are merged...
-- [ ] Tag all the PRs/issues in the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) with the `<<version>>` label.
-- [ ] Unpin this current rodamap issue.
+- [ ] Unpin this current roadmap issue.
 - [ ] Close the release [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
