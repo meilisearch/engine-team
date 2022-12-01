@@ -27,11 +27,11 @@ git checkout main
 git pull origin main
 ```
 
-3. Create a release branch named `release-vX.X.X` where `X.X.X` is the new version and push this branch
+3. Create a release branch named `release-vX.Y.Z` where `X.X.X` is the new version and push this branch
 
 ```bash
-git checkout -b release-vX.X.X
-git push -u origin release-vX.X.X
+git checkout -b release-vX.Y.Z
+git push -u origin release-vX.Y.Z
 ```
 
 4. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
@@ -39,9 +39,9 @@ git push -u origin release-vX.X.X
 5. Click on the `Draft a new release` button
 
 6. Fill the form with:
-- the title of the release: `vX.X.Xrc0`
-- the tag associated to the release: should be `vX.X.Xrc0`
-- ⚠️ the branch on which to push the tag: `release-vX.X.X`. Do not push the tag to `main`!
+- the title of the release: `vX.Y.Zrc0`
+- the tag associated to the release: should be `vX.Y.Zrc0`
+- ⚠️ the branch on which to push the tag: `release-vX.Y.Z`. Do not push the tag to `main`!
 - the description: add as many details as possible: the PRs, the authors, the new usage, the external contributors we want to thank...
 - ⚠️ the `This is a pre-release` check box
 
@@ -51,41 +51,31 @@ git push -u origin release-vX.X.X
 
 The CIs will be triggered to:
 - upload binaries to the GitHub RC.
-- publish the associated Docker image (`vX.X.X`) to DockerHub.
+- publish the associated Docker image (`vX.Y.Z`) to DockerHub.
 
 ### What if some bugs are in the RC?
 
-1. Create a new branch starting from the branch `release-vX.X.X` and commit on this new branch.
+1. Create a new branch starting from the branch `release-vX.Y.Z` and commit on this new branch.
 
-2. Open and merge the PR originating this new branch and pointing to `release-vX.X.X`
+2. Open and merge the PR originating this new branch and pointing to `release-vX.Y.Z`
 
 ### How to release the next RCs
 
-When all/enough hotfixes have been done to the `release-vX.X.X` branch, create a new RC.
+When all/enough hotfixes have been done to the `release-vX.Y.Z` branch, create a new RC.
 The steps are the same as for `How to create the first pre-release (or RC i.e. Release Candidate)` but starting from the step 4 and with the new RC name.
 
 ## 🔥 Meilisearch official release
 
 ### How to do the official release
 
-1. Merge the `release-vX.X.X` into the `stable` branch:
-```bash
-git checkout release-vX.X.X
-git pull origin release-vX.X.X
-git checkout stable
-git pull origin stable
-git merge release-vX.X.X
-git push origin stable
-```
+1. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
 
-2. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
+2. Click on the `Draft a new release` button
 
-3. Click on the `Draft a new release` button
-
-4. Fill the form with:
-- the title of the release: `vX.X.X`
-- the tag associated to the release: should be `vX.X.X`
-- ⚠️ the branch on which to push the tag: `stable`. Do not push the tag to `main`!
+3. Fill the form with:
+- the title of the release: `vX.Y.Z`
+- the tag associated to the release: should be `vX.Y.Z`
+- ⚠️ the branch on which to push the release: `release-vX.Y.Z`. Do not push the tag to `main`!
 - the description. Add as many details as possible: the PRs, the authors, new usage examples, the external contributors we want to thank...
 - check the `Set as the latest release`
 
@@ -95,33 +85,35 @@ git push origin stable
 
 The CIs will be triggered to:
 - upload binaries to the GitHub release.
-- publish the Docker images (`latest` and `vX.X.X`) to DockerHub.
+- publish the Docker images (`latest` and `vX.Y.Z`) to DockerHub.
 - publish binaries for Homebrew and APT
+- move the `latest` git tag to the release commit.
 
 ### After the release
 
-Some commits might miss to `main` since the engine-team did some hotfixes merged to the `release-vX.X.X` branch.
-You need to bring them back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
+Some commits might miss to `main` since the engine-team did some hotfixes merged to the `release-vX.Y.Z` branch.
+
+In this case, you need to bring them back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
 
 ### How to do patched release (following hotfixes)
 
 It happens some releases come with impactful bugs in production (e.g. indexation or search issues): we obviously don't wait for the next cycle to fix them and we release a patched version of Meilisearch.
 
-1. Create a new release branch starting from `stable`
+1. Create a new release branch starting from the latest stable Meilisearch release (`latest` or `release-vX.Y.Z`).
 
 ```bash
-git checkout stable; git pull origin stable
-git checkout -b release-vX.X.X
-git push -u origin release-vX.X.X
+git checkout latest
+git checkout -b release-vX.Y.Z
+git push -u origin release-vX.Y.Z
 ```
 
-2. Open a [new GitHub Milestone `vX.X.X`](https://github.com/meilisearch/meilisearch/milestones) related to this new version.
+2. Open a [new GitHub Milestone `vX.Y.Z`](https://github.com/meilisearch/meilisearch/milestones) related to this new version.
 
-3. Open and merge the PRs (fixing your bugs): they should point to `release-vX.X.X`. Don't forget to change the version name in `Cargo.toml` files! You can use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
+3. Open and merge the PRs (fixing your bugs): they should point to `release-vX.Y.Z`. Don't forget to change the version name in `Cargo.toml` files! You can use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
 
 4. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
 
-5. Same as the official release, if needed, bring the new commits back from `stable` to `main` by merging a PR originating `stable` and pointing to `main`.
+5. Same as the official release, if needed, bring the new commits back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
 
 ## 🎈 Other library release process
 
