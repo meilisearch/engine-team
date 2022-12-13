@@ -30,6 +30,7 @@ The engine team owns all the repositories related to the engine-engine:
 - [**lmdb-rs**](https://github.com/meilisearch/lmdb-rs/): a fork of [mozilla/lmdb-rs](https://github.com/mozilla/lmdb-rs).
 - [**lmdb**](https://github.com/meilisearch/lmdb): a fork of [LMDB/lmdb](https://github.com/LMDB/lmdb).
 - [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch.
+- [**Deserr**](https://github.com/meilisearch/deserr/): a crate for deserializing data, with the ability to return custom, type-specific errors upon failure
 - [**Jayson**](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
 
 For testing:
