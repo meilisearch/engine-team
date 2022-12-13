@@ -6,7 +6,7 @@ The Meilisearch release cycles last 8 weeks
 - 4 weeks of implementation phase: the engine team implements all the planned issues.
 - 4 weeks of pre-release phase: the engine team fixes the bugs introduced during the implementation phase. Integration and documentation teams update their scope according to the changes.
 
-At the beginning of the pre-release phase, the first RC is released. Other RC will be done if bugs are found.
+At the beginning of the pre-release phase, the first RC is released. Other RCs will be done if bugs are found.
 
 At the end of the pre-release phase, the official release is published.
 
@@ -39,8 +39,8 @@ git push -u origin release-vX.Y.Z
 5. Click on the `Draft a new release` button
 
 6. Fill the form with:
-- the title of the release: `vX.Y.Zrc0`
-- the tag associated to the release: should be `vX.Y.Zrc0`
+- the title of the release: `vX.Y.Z-rc.0`
+- the tag associated to the release: should be `vX.Y.Z-rc.0`
 - ⚠️ the branch on which to push the tag: `release-vX.Y.Z`. Do not push the tag to `main`!
 - the description: add as many details as possible: the PRs, the authors, the new usage, the external contributors we want to thank...
 - ⚠️ the `This is a pre-release` check box
