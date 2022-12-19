@@ -56,7 +56,7 @@ This kind of change will lead us to increase the MINOR to let the people know ab
 
 We don't consider breaking to add a new type to an already existing list of variant. For example, adding a new type of `task`, or a new type of error `code`.
 
-We are aware some strongly typed language code bases could be impacted, and our recommendation is to handle the possibility of an unknown type when deserializing Meilisearch's response.
+We are aware some strongly typed language code bases could be impacted, and our recommendation is to handle the possibility of having an unknown type when deserializing Meilisearch's response.
 
 ### Human-readability purposes
 
