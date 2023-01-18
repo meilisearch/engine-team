@@ -39,7 +39,7 @@ Ends: 20XX-XX-XX
 
 - [ ] Engine team releases the first RC (release candidate) using the prepared changelogs.
 - [ ] At the beginning of the Pre-release Phase, sync meeting with each manager of the open-source teams about the coming release. It’s an opportunity to plan and identify the parts where sync will be needed between the different teams during the Pre-release Phase.
-- [ ] At the beginning of the Pre-release Phase, the PM and engine manager communicate (on Slack and issues) about the RC to encourage people to test them.
+- [ ] At the beginning of the Pre-release Phase, the PM and engine manager communicate (on issues) about the RC to encourage people to test them. They also sync with DevRel team for some communication on Discord for the community.
 - [ ] Integrations team updates the SDKs and their integrations according to the new release.
 - [ ] Docs team updates the documentation to reflect the changes of the new release.
 - [ ] According to feedback and bug reports, the engine team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
