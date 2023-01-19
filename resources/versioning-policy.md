@@ -66,7 +66,7 @@ We are aware some strongly typed language code bases could be impacted, and our 
 
 ### Integrated web-interface
 
-Any change done to the integrated web-interface is not considered breaking. This interface is considered an additional tool for test purposes, not for production.
+Any changes done to the integrated web interface are not considered breaking. The interface is considered an additional tool for test purposes, not for production.
 
 ## 📝 About the Meilisearch changelogs
 
