@@ -64,6 +64,10 @@ We are aware some strongly typed language code bases could be impacted, and our 
 - Any error message sent to the terminal that changed will increase the PATCH. People should not rely on them since these messages are for human debugging.
 - Updating the logs format will increase the MINOR: this is supposed to be used by humans for debugging, but we are aware some people can plug some tools at the top of them. But since it’s not the main purpose of our logs, we don’t want to increase the MAJOR for a log format change. However, we will increase the MINOR to let the people know better about the change and avoid bad surprises when pulling the latest patched version of Meilisearch.
 
+### Integrated web-interface
+
+Any changes done to the integrated web interface are not considered breaking. The interface is considered an additional tool for test purposes, not for production.
+
 ## 📝 About the Meilisearch changelogs
 
 All the changes, no matter if they are considered as breaking or not, if they are related to an algorithm change or not, will be announced in the changelogs.
