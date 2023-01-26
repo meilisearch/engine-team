@@ -27,7 +27,6 @@ The engine team owns all the repositories related to the engine-engine:
 - [**lmdb**](https://github.com/meilisearch/lmdb): a fork of [LMDB/lmdb](https://github.com/LMDB/lmdb).
 - [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch.
 - [**Deserr**](https://github.com/meilisearch/deserr/): a crate for deserializing data, with the ability to return custom, type-specific errors upon failure
-- [**Jayson**](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
 
 For testing:
 
@@ -43,6 +42,7 @@ Misc:
 - [**ansible-vm-benchmarks**](https://github.com/meilisearch/ansible-vm-benchmarks): an Ansible Playbook to index datasets on several typology of Instance on a specific Meilisearch version/commit
 - [**segseg**](https://github.com/meilisearch/segseg): a POC of a segment based search engine
 - [**meili-aoc**](https://github.com/meilisearch/meili-aoc) (internal): Advent of Code repository
+- [**Jayson**](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
 
 Archived repositories:
 
