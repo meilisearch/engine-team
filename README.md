@@ -42,10 +42,10 @@ Misc:
 - [**ansible-vm-benchmarks**](https://github.com/meilisearch/ansible-vm-benchmarks): an Ansible Playbook to index datasets on several typology of Instance on a specific Meilisearch version/commit
 - [**segseg**](https://github.com/meilisearch/segseg): a POC of a segment based search engine
 - [**meili-aoc**](https://github.com/meilisearch/meili-aoc) (internal): Advent of Code repository
-- [**Jayson**](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
 
 Archived repositories:
 
+- [**Jayson**](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
 - [**Transplant**](https://github.com/meilisearch/transplant): the temporary repository that integrates Milli as search engine. The final goal of Transplant code base is to be integrated into the MeiliSearch repository and will correspond to the v0.21.0 release.
 - Raft work that has been archived
   - [**Meilipod**](https://github.com/meilisearch/meilipod) (private only)
