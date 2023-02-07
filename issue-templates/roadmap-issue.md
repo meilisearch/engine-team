@@ -56,7 +56,7 @@ Release date: 20XX-XX-XX
 - [ ] New documentation deployment by the docs team
 - [ ] Release of all the updated integrations by the integration team
 - [ ] DevRel team takes care of external communications (blog, socials, etc) but might want for the documentation and the assets of the release to be ready (including Docker image)
-- [ ] Bring changes from `stable` branch of Meilisearch into the `main` branch
+- [ ] Bring changes from `release-vX.Y.Z` branch of Meilisearch into the `main` branch
 - [ ] Close every part relating to the release in the [product repository](https://github.com/meilisearch/product/): discussions, issues, PRs of the specs are merged...
 - [ ] Unpin this current roadmap issue.
 - [ ] Close the release [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
