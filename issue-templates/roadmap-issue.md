@@ -29,7 +29,7 @@ Ends: 20XX-XX-XX
 - [ ] Review of the changelogs by engine team developers (for the technical information), PM (for the feature promotion) and docs team for English expression.
 - [ ] Docs team organizes their preparation for the release: discussion phase, planning and issue creation.
 - [ ] Integration team organizes their preparation for the release: opens a central issue on [integration-guides](https://github.com/meilisearch/integration-guides) gathering all the release changes that will impact the integration team and how they will handle them. They also open draft branches in every repository to update the integrations with the new version of Meilisearch.
-- [ ] At the end of the Implementation Phase, all the issues related to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) are solved, meaning every implementation has been merged into `main`. If something differs from the original plan, the engine manager should inform the other teams on #ms-releases (internal Slack).
+- [ ] At the end of the Implementation Phase, all the issues related to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) are solved, meaning every implementation has been merged into `main`. If something differs from the original plan, the engine manager should inform the other teams on #ms-releases (internal Slack). The not-ready issues for the sprint should be removed from the Milestone.
 
 # Pre-release phase (weeks 9-12)
 
