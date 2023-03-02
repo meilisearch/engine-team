@@ -12,7 +12,8 @@ Ends: 20XX-XX-XX
 - [ ] The engine manager quickly shares the next release plan on #ms-release (internal Slack). It’s for information at this stage, no team can start working since no PRD/specs are available.
 - [ ] The PM starts to work on the next feature: write PRD (Product Requirement Documents), organize working groups and product squad works... This might involve discussions with the technical teams and some prototype implementations.
 - [ ] At the middle/end of the Draft phase, the PM and the engine manager review together and agree on a firm version of the next release plan. Nothing is strongly definitive, the main goal is to provide a list of tasks ordered by prioritization.
-- [ ] The engine manager opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>). Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
+- [ ] Engine team opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) and pinged the related teams on it. Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
+- [ ] The engine manager creates a [GitHub project view](https://github.com/orgs/meilisearch/projects/24/views/5) based on the just created issues. Not all of them should be added to the view, only the new features and improvements. The goal is to clarify the priority of the sprint.
 - [ ] The PM provides the firm version of the PRDs, which means the developers have enough information to make the implementation phase begin.
 
 # Implementation phase (weeks 5-8)
