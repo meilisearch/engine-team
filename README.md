@@ -18,8 +18,7 @@
 
 The engine team owns all the repositories related to the engine-engine:
 
-- [**Meilisearch**](https://github.com/meilisearch/meilisearch): the main repository containing the current search engine.
-- [**Milli**](https://github.com/meilisearch/milli): the new search engine in development.
+- [**Meilisearch**](https://github.com/meilisearch/meilisearch): the main Engine team repository containing the search engine.
 - [**Charabia**](https://github.com/meilisearch/charabia/): the tokenizer used by the search engine (in Meilisearch and in Milli).
 - [**Grenad**](https://github.com/meilisearch/grenad): tools to sort, merge, write, and read immutable key-value pairs.
 - [**Heed**](https://github.com/meilisearch/heed): a fully typed LMDB/MDBX wrapper with minimum overhead, uses bytemuck internally.
@@ -45,6 +44,7 @@ Misc:
 
 Archived repositories:
 
+- [**Milli**](https://github.com/meilisearch/milli): the new search engine in development.
 - [**Jayson**](https://github.com/meilisearch/jayson): heavily modified version of [miniserde](https://github.com/dtolnay/miniserde), with only the deserialization part.
 - [**Transplant**](https://github.com/meilisearch/transplant): the temporary repository that integrates Milli as search engine. The final goal of Transplant code base is to be integrated into the MeiliSearch repository and will correspond to the v0.21.0 release.
 - Raft work that has been archived
