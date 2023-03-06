@@ -49,8 +49,8 @@ git push -u origin release-vX.Y.Z
 
 7. Finally, when you are sure, click on the `Publish release` button.
 
-The CIs will be triggered to:
-- upload binaries to the GitHub RC.
+⚙️ The CIs will be triggered to:
+- upload binaries to the associated GitHub pre-release.
 - publish the associated Docker image (`vX.Y.Z`) to DockerHub.
 
 ### What if some bugs are in the RC?
@@ -73,19 +73,23 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 2. Click on the `Draft a new release` button
 
 3. Fill the form with:
-- the title of the release: `vX.Y.Z`
-- the tag associated to the release: should be `vX.Y.Z`
-- ⚠️ the branch on which to push the release: `release-vX.Y.Z`. Do not push the tag to `main`!
-- the description. Add as many details as possible: the PRs, the authors, new usage examples, the external contributors we want to thank...
-- check the `Set as the latest release`
+- The title of the release: `vX.Y.Z`
+- The tag associated to the release: should be `vX.Y.Z`
+- ⚠️ The branch on which to push the release: `release-vX.Y.Z`. Do not push the tag to `main`!
+- The description. Add as many details as possible: the PRs, the authors, new usage examples, the external contributors we want to thank...
+- Check the `Set as the latest release`
+- Check the `Create a discussion for these release` if necessary (not for patch releases)
 
 ![GH release form](../assets/gh-release.png)
 
 5. Finally, when you are sure, click on the `Publish release` button.
+6. If you have chosen to create a discussion, go to the newly created one and
+  - Add a small introduction section at the top of the description. Refer to [this one](https://github.com/meilisearch/meilisearch/discussions/3459) as an example
+  - Pin the discussion (and unpin the old one about the previous release)
 
-The CIs will be triggered to:
-- upload binaries to the GitHub release.
-- publish the Docker images (`latest` and `vX.Y.Z`) to DockerHub.
+⚙️ The CIs will be triggered to:
+- upload binaries to the associated GitHub release.
+- publish the Docker images (`latest`, `vX.Y` and `vX.Y.Z`) to DockerHub.
 - publish binaries for Homebrew and APT
 - move the `latest` git tag to the release commit.
 
