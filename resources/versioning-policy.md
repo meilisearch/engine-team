@@ -28,6 +28,8 @@ Examples:
 - Change a final value type.
 Ex: `/stats` now return floats instead of integers. This can impact strongly typed languages.
 
+⚠️ This guide only applies to the Meilisearch binary. Additional tools like SDKs and Docker images are out of the scope of this guide. However, we will ensure the changelogs are clear enough to inform users of the changes and their impacts.
+
 ## ✋ Exceptions related to Meilisearch’s specificities
 
 Meilisearch is a search engine working with an internal database. It means some parts of the project can be really problematic to consider as breaking (and then leading to an increase of the MAJOR) without slowing down innovation.
