@@ -8,7 +8,7 @@ Experimental features must be explicitly enabled by a user.
 
 > ⚠️ Experimental features are NOT [prototypes](). All experimental features are thoroughly tested before release and follow the same quality standards as other features.
 
-## Motivations
+## Motivation
 
 Since the release of v1, Meilisearch is considered a stable binary and its API cannot break between minor and patch versions. This means it is impossible to make breaking changes to a feature without releasing a major version.
 
