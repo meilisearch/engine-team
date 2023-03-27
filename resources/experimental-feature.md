@@ -33,7 +33,7 @@ Users must explicitly enable experimental features with a CLI flag. Experimental
 
 Example CLI flags: `--experimental-disable-soft-delete`, `--experimental-multi-index-search`.
 
-⚠️ To ensure the users understand the feature is experimental, the flag needs to have the `experimental` prefix.
+⚠️ To ensure users understand a feature is experimental, flags must contain the `experimental` prefix.
 
 ## Rules and expectations
 
