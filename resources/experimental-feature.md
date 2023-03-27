@@ -31,7 +31,7 @@ We will treat features as experimental when:
 
 Users must explicitly enable experimental features with a CLI flag. Experimental features will always be disabled by default.
 
-For instance `--experimental-disable-soft-delete` or `--experimental-multi-index-search`.
+Example CLI flags: `--experimental-disable-soft-delete`, `--experimental-multi-index-search`.
 
 ⚠️ To ensure the users understand the feature is experimental, the flag needs to have the `experimental` prefix.
 
