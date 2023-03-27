@@ -18,14 +18,14 @@ To prevent frequently releasing new major versions but still continue to develop
 
 ## Which features are concerned?
 
-Not all the new feature introduction will get through the experimental feature process.
+Not all new features need to go through the experimental feature process.
 
-Experimental features are:
+We will treat features as experimental when:
 
-- New features we want to add to the search engine (like a new route, a new parameter, or a new CLI flag), but we are not sure if we want to provide them this way or even at all. We need the user feedback to make our final decision.
-- Improvements we want to provide, but the engine team is not comfortable considering them immediately as stable. For instance, relevancy or performance improvements.
-- Features that would introduce a breaking change and so can’t be integrated as stable before the v2 is released.
-- Features we want to provide into the search engine, but that will NEVER be stable. These features are useful to provide a quick fix to the users when they have critical issues when using Meilisearch, for instance, an option to disable the auto-batching feature.
+- New features we are considering adding to the search engine, but need user feedback before making our final decision and/or committing to a specific implementation. Example: a new API route or CLI flag
+- Improvements to existing functionality the engine team is not comfortable releasing as stable immediately. Example: changes to search relevancy or performance improvements
+- New features that would introduce breaking changes and cannot be integrated as stable before a new major version
+- New features that will NEVER be stable. These features are useful to provide quick temporary fixes to critical issues. Example: an option to disable auto-batching
 
 ## How to use experimental features?
 
