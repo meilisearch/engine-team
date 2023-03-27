@@ -52,14 +52,13 @@ For each new experimental feature, we must:
 - Meilisearch CLI: update the `--help` command in the Meilisearch binary so it redirects users to the related GitHub discussion and warns them about the unstable state of the features
 - Documentation: create a small dedicated page about the purpose of the experimental feature. This page should contain no usage instructions and redirect users to the related GitHub discussion for more information
 
-## Some warnings about the usage
+## Usage warnings
 
-- Experimental features are not recommended to be used in production.
-- For some provided experimental features, re-indexing will be needed. For this, more than only restarting the search engine, using a dump will be needed to enforce re-indexing.
-This means, in some situations, using a dump might be needed to activate an experimental feature but also to deactivate it. The users will be clearly informed in the related discussion how to activate the feature
+- Experimental features are not recommended for production environments
+- Some experimental features, might required re-indexing. In these cases, users will have to use a dump to activate and deactivate an experimental feature. Users will be clearly informed about this in the related GitHub discussion
 
-> ⚠️ When deactivating this kind of experimental feature, since our process is not mature yet, users can have some issues with their DB, even when using a dump.<br>
-> We recommend users always save their data (with snapshots and/or dumps) before starting to activate experimental features. Of course, the safest method is to use a script to feed Meilisearch.
+> ⚠️ Since this process is not mature yet, users might experience issues with their DB when deactivating these features even when using a dump.<br>
+> We recommend users always save their data (with snapshots and/or dumps) before activating experimental features.
 
 ## Technical details
 
