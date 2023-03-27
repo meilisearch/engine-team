@@ -10,11 +10,11 @@ Experimental features must be explicitly enabled by a user.
 
 ## Motivations
 
-From the moment Meilisearch v1 is released, Meilisearch is considered a stable binary where the API cannot break. It will be impossible to provide a feature and break it without releasing a major version.
+Since the release of v1, Meilisearch is considered a stable binary and its API cannot break between minor and patch versions. This means it is impossible to make breaking changes to a feature without releasing a major version.
 
-Since we don’t plan to release a new major version every two months (we guarantee stability to our users), we need to ensure we are making the right product decisions about our newly integrated features.
+This limitation, which guarantees our users Meilisearch is a stable and reliable product, also applies to new features. If we introduce a new feature in one release, any breaking changes will require a new major release.
 
-To prevent this, we want to provide first these features as "experimental" by letting users testing them and reporting any issues they could have with their usage.
+To prevent frequently releasing new major versions but still continue to develop new features, we will first provide these features as "experimental". This allows users to test them, report implementation issues, and give us important feedback.
 
 ## Which features are concerned?
 
