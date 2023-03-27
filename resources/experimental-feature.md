@@ -4,7 +4,7 @@
 
 An experimental feature is a feature present in the final Meilisearch binary that is not considered stable. This means the API might become incompatible between two Meilisearch releases.
 
-Even if he feature is present in the Meilisearch binary, it will be not enabled by default: the users must activate it to use it consciously.
+Experimental features must be explicitly enabled by a user.
 
 > ⚠️ Experimental features are NOT [prototypes]().
 
