@@ -44,16 +44,13 @@ Example CLI flags: `--experimental-disable-soft-delete`, `--experimental-multi-i
 
 ## Communication with users
 
-For each experimental feature:
-- In the [product repository](https://github.com/meilisearch/product/discussions)
-  - A dedicated GitHub discussion is open
-  - The discussion should be clear about the following information
-      - Our motivations: why this feature is unstable?
-      - How to use the feature: how to activate it? Do we need to do a migration with a dump?
-      - Our future plan: what do we expect to make it stable? When will the feature potentially be stable?
-  - The discussion should not stay in a stale state. Users need to understand they can interact in the discussion and get quick answers. If needed, the discussion will be updated regularly.
-- Using the Meilisearch CLI: the `--help` command in the Meilisearch binary will redirect to the related GitHub discussion and warn about the unstable state of the features.
-- In the documentation: a small dedicated page should be done about the purpose of the experimental feature and redirect to the related GitHub discussion.
+For each new experimental feature, we must:
+- GitHub: open a dedicated GitHub discussion in the  [product repository](https://github.com/meilisearch/product/discussions). This discussion should never become stale and be updated regularly. Users need to understand they can interact with us and get quick answers. The discussion should inform users about:
+  - Our motivations: why this feature is unstable?
+  - Usage: how to activate this feature? Do we need to do a migration with a dump?
+  - Planning: what are the conditions to make this feature stable? When do we expect it become stable?
+- Meilisearch CLI: update the `--help` command in the Meilisearch binary so it redirects users to the related GitHub discussion and warns them about the unstable state of the features
+- Documentation: create a small dedicated page about the purpose of the experimental feature. This page should contain no usage instructions and redirect users to the related GitHub discussion for more information
 
 ## Some warnings about the usage
 
