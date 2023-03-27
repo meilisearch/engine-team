@@ -68,13 +68,13 @@ This means, in some situations, using a dump might be needed to activate an expe
 
 ## Technical details
 
-### Why does Meilisearch need to be restarted (by using the `experimental` CLI flag)?
+### Why does Meilisearch need to be restarted when activating an experimental feature?
 
-Meilisearch uses LMDB to store the data, not only user documents but also a lot of internal data, like Meilisearch tasks. With LMDB, if we want to add or remove data structures to store this data, we need to close the LMDB environment and re-open it, so to restart Meilisearch.
+Meilisearch uses LMDB to store both documents and internal application data, such as Meilisearch tasks. Altering these internal data structures requires closing and re-opening the LMDB environment.
 
-It means if an experimental feature implementation involves a modification of the data structures, users must restart Meilisearch; we cannot make it enable/disable from the HTTP routes.
+If an experimental feature implementation involves a modification of internal data structures, users must restart Meilisearch. This cannot be done via HTTP routes.
 
-Unfortunately, this might concern most of the future features. That’s why we chose, for the moment, only to suggest flag CLI in order to enable/disable experimental features. However, this can be changed in the future or adapted to the situation.
+Unfortunately, this might impact most experimental features. However, this might change in the future, or adapted to the context of a specific new feature.
 
 ### Why could we need to use a dump?
 
