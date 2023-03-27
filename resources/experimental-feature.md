@@ -82,7 +82,7 @@ Since we need to restart Meilisearch, and changes happened on the DB side, an is
 
 Indeed, Meilisearch could try to read the old DB, but does not succeed to do it (crash), or do it badly (inconsistent results). That’s why we ask for dumps between 2 minor versions (there are often a lot of changes in the DB), and that’s why users sometimes will need to use a dump when passing from stable to experimental. The contrary (from experimental to stable) is riskier, even when using a dump, since we are not mature enough yet, but we will be safer and safer in the future.
 
-### Restarting Meilisearch and using dump is not convenient; could we improve this in the future?
+### Restarting Meilisearch and migrating databases with dumps to activate an experimental feature is inconvenient. Will this improve in the future?
 
 Indeed, we know it’s not convenient for the users. We will always try to ask to use a dump only when it’s necessary.
 
