@@ -29,7 +29,7 @@ Experimental features are:
 
 ## How to use experimental features?
 
-They will be integrated into the stable binary but must be activated with a CLI flag.
+Users must explicitly enable experimental features with a CLI flag. Experimental features will always be disabled by default.
 
 For instance `--experimental-disable-soft-delete` or `--experimental-multi-index-search`.
 
