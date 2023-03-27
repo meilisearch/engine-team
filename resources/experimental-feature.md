@@ -37,12 +37,10 @@ Example CLI flags: `--experimental-disable-soft-delete`, `--experimental-multi-i
 
 ## Rules and expectations
 
-- The API and the behavior of an experimental feature can break between two minor versions of Meilisearch.
-- The whole experimental feature process described in this guide can break between 2 minor versions of Meilisearch.
-- Providing a feature as “experimental” does not guarantee it will be stable one day: the newly introduced experimental features or improvements can be removed in the future.
-- The experimental features are supposed to be unstable regarding the usage but **not buggy**.
-The features will be released like any stable feature with a whole test suite and serious code reviews, something we don’t have the time to do when providing a prototype, for example.
-However, the experimental feature process can be an opportunity to test an improvement (for example, regarding performance) we are not comfortable putting immediately into production. In this case, more bugs and/or API changes are expected.
+- The API and behavior of an experimental feature can break between two minor versions of Meilisearch
+- The experimental feature process described here can significantly change between 2 minor versions of Meilisearch
+- Providing a feature as “experimental” does not guarantee it will be stable one day: the newly introduced experimental features or improvements may be removed in a future release
+- While experimental features are supposed to be unstable regarding usage and compatibility between versions, users should not expect any more bugs or issues than with any other Meilisearch feature. Experimental features should follow the same quality standards of stable features, including thorough testing suites and in-depth code reviews. That said, certain experimental features might be inherently more prone to bugs and downgrades
 
 ## Communication with users
 
