@@ -84,6 +84,6 @@ Indeed, Meilisearch could try to read the old DB, but does not succeed to do it 
 
 ### Restarting Meilisearch and migrating databases with dumps to activate an experimental feature is inconvenient. Will this improve in the future?
 
-Indeed, we know it’s not convenient for the users. We will always try to ask to use a dump only when it’s necessary.
+We understand the situation is inconvenient and less than ideal. We will only ask users to use dumps when activating experimental features when it’s strictly necessary.
 
-Regarding the restart, we will do our best to try removing it, and then avoid using the dump at the same time. However, it will require a lot of implementation time we don’t have the time currently to spend. But depending on the situation, we might want to put effort into it. We know it will facilitate the exposition of the experimental feature on the Cloud side for example.
+Avoiding restarts is more difficult, especially for features that currently require database migrations with dumps. We are not currently working on this, but the situation might change in the future.
