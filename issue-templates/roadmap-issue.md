@@ -45,7 +45,6 @@ Ends: 20XX-XX-XX
 - [ ] According to feedback and bug reports, the engine team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
 - [ ] DevRel team writes a blog post “What’s new in <<version>>?”.
 - [ ] The engine manager, the PM, and the docs team review the blog post.
-- [ ] Integration team shares with the engine manager which SDKs and integrations will be ready or not to be compatible with the next Meilisearch version by the release day. Engine manager adapts the changelogs accordingly.
 
 # Release phase (week 13)
 
