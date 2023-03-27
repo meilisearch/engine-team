@@ -16,7 +16,7 @@ This limitation, which guarantees our users Meilisearch is a stable and reliable
 
 To prevent frequently releasing new major versions but still continue to develop new features, we will first provide these features as "experimental". This allows users to test them, report implementation issues, and give us important feedback.
 
-## Which features are concerned?
+## When is a feature considered experimental?
 
 Not all new features need to go through the experimental feature process.
 
