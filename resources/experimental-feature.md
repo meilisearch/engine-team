@@ -2,7 +2,7 @@
 
 ## Quick definition of experimental feature
 
-An experimental feature is a feature present in the final Meilisearch binary, but that is not considered as stable: the API can break between 2 versions of Meilisearch.
+An experimental feature is a feature present in the final Meilisearch binary that is not considered stable. This means the API might become incompatible between two Meilisearch releases.
 
 Even if he feature is present in the Meilisearch binary, it will be not enabled by default: the users must activate it to use it consciously.
 
