@@ -66,7 +66,7 @@ This means, in some situations, using a dump might be needed to activate an expe
 > ⚠️ When deactivating this kind of experimental feature, since our process is not mature yet, users can have some issues with their DB, even when using a dump.<br>
 > We recommend users always save their data (with snapshots and/or dumps) before starting to activate experimental features. Of course, the safest method is to use a script to feed Meilisearch.
 
-## Technical explanations
+## Technical details
 
 ### Why does Meilisearch need to be restarted (by using the `experimental` CLI flag)?
 
