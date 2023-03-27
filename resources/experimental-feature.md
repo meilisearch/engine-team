@@ -27,7 +27,7 @@ We will treat features as experimental when:
 - New features that would introduce breaking changes and cannot be integrated as stable before a new major version
 - New features that will NEVER be stable. These features are useful to provide quick temporary fixes to critical issues. Example: an option to disable auto-batching
 
-## How to use experimental features?
+## How to enable experimental features?
 
 Users must explicitly enable experimental features with a CLI flag. Experimental features will always be disabled by default.
 
