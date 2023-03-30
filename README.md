@@ -30,7 +30,6 @@ The engine team owns all the repositories related to the engine-engine:
 For testing:
 
 - [**cargo-flaky**](https://github.com/meilisearch/cargo-flaky): cargo extension to help you find flaky tests in you test suite. Used in the [Meilisearch CI](https://github.com/meilisearch/meilisearch/actions/workflows/flaky.yml) every week.
-- [**Nelson**](https://github.com/meilisearch/nelson/): small mocking library for Rust. Used in the Meilisearch test suite.
 - [**Yaup**](https://github.com/meilisearch/yaup/): a fork of [`serde_url_params`](https://github.com/boxdot/serde-url-params-rs) for `GET /search` tests.
 
 Misc:
@@ -51,6 +50,7 @@ Archived repositories:
   - [**Meilipod**](https://github.com/meilisearch/meilipod) (private only)
   - [**Raft**](https://github.com/meilisearch/raft) (private only)
   - [**raft-metrics**](https://github.com/meilisearch/raft-metrics) (private only)
+- [**Nelson**](https://github.com/meilisearch/nelson/): small mocking library for Rust. Used in the past in the Meilisearch test suite.
 
 # TOC
 
