@@ -54,5 +54,6 @@ Archived repositories:
 
 # TOC
 
-- [Roadmaps](./roadmaps)
 - [Resources](./resources)
+- [Release changelogs](./meilisearch-release-changelog)
+- [Issue templates](./issue-templates)
