@@ -2,13 +2,11 @@
 
 This guide is to describe how to make releases and pre-releases for the [Meilisearch repository](https://github.com/meilisearch/meilisearch).
 
-The Meilisearch release cycles last 8 weeks
-- 4 weeks of implementation phase: the engine team implements all the planned issues.
-- 4 weeks of pre-release phase: the engine team fixes the bugs introduced during the implementation phase. Integration and documentation teams update their scope according to the changes.
-
 At the beginning of the pre-release phase, the first RC is released. Other RCs will be done if bugs are found.
 
 At the end of the pre-release phase, the official release is published.
+
+> 📚 More information about the sprint organization and the different sprint phases in this [guide](./sprint-organization.md).
 
 ## 🏋️‍♂️ Meilisearch pre-release phase
 
