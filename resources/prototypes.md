@@ -58,7 +58,8 @@ Here is an example of messages to share on GitHub:
 >
 > Here is the current prototype you can use to test the new XXX feature:
 >
-> How to run the prototype:
+> How to run the prototype?
+> You need to start from a fresh new database (remove the previous used `data.ms`) and use the following Docker image:
 > ```bash
 > docker run -it --rm -p 7700:7700 -v $(pwd)/meili_data:/meili_data getmeili/meilisearch:prototype-X-Y
 > ```
