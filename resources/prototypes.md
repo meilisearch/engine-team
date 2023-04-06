@@ -68,4 +68,6 @@ Here is an example of messages to share on GitHub:
 > ...
 > ```
 >
+> ⚠️ We do NOT recommend using this prototype in production. This is only for test purposes.
+>
 > Everyone is more than welcome to give feedback and to report any issue or bug you might encounter when using this prototype. Thanks in advance for your involvement. It means a lot to us ❤️
