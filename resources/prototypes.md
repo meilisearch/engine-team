@@ -14,7 +14,7 @@ For some features or improvements we want to introduce in Meilisearch, we also h
 
 These make us iterate fast before stabilizing it for the current release.
 
-> ⚠️ Prototypea are NOT [experimental features](./experimental-features.md). All experimental features are thoroughly tested before release and follow the same quality standards as other features. This is not the case with prototypes which are the equivalent of a first draft of a new feature.
+> ⚠️ Prototypes are NOT [experimental features](./experimental-features.md). All experimental features are thoroughly tested before release and follow the same quality standards as other features. This is not the case with prototypes which are the equivalent of a first draft of a new feature.
 
 ## How to publish a prototype?
 
