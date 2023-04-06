@@ -6,7 +6,7 @@ An experimental feature is a feature present in the final Meilisearch binary tha
 
 Experimental features must be explicitly enabled by a user.
 
-> ⚠️ Experimental features are NOT [prototypes](). All experimental features are thoroughly tested before release and follow the same quality standards as other features.
+> ⚠️ Experimental features are NOT [prototypes](./prototypes.md). All experimental features are thoroughly tested before release and follow the same quality standards as other features.
 
 ## Motivation
 
