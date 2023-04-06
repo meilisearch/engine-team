@@ -4,7 +4,7 @@
 
 A prototype is an alternative version of Meilisearch (provided in a Docker image) containing a new feature or an improvement the engine team provides to the users.
 
-## Why provding a prototype?
+## Why providing a prototype?
 
 For some features or improvements we want to introduce in Meilisearch, we also have to make the users test them first before releasing them for many reasons:
 - to ensure we solve the first use case defined during the discovery
