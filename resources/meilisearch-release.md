@@ -97,6 +97,12 @@ Some commits might miss to `main` since the engine-team did some hotfixes merged
 
 In this case, you need to bring them back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
 
+⚠️ If you encounter any git conflicts when creating the PR, please do NOT fix the git conflicts directly on the `release-vX.Y.Z` branch. It would bring the changes present in `main` into `release-vX.Y.Z`, which would break a potential future patched release.
+Instead:
+- Create a new branch originating `release-vX.Y.Z`, like `tmp-release-vX.Y.Z`
+- Fix the git conflicts on this new branch
+- Merge this new branch into `main`
+
 ### How to do patched release (following hotfixes)
 
 It happens some releases come with impactful bugs in production (e.g. indexation or search issues): we obviously don't wait for the next cycle to fix them and we release a patched version of Meilisearch.
