@@ -1,6 +1,6 @@
 # Experimental features: description and process
 
-## Quick definition of experimental feature
+## Quick definition of experimental features
 
 An experimental feature is a feature present in the final Meilisearch binary that is not considered stable. This means the API might become incompatible between two Meilisearch releases.
 
@@ -54,8 +54,8 @@ For each new experimental feature, we must:
 
 ## Usage warnings
 
-- Experimental features are not recommended for production environments
-- Some experimental features, might required re-indexing. In these cases, users will have to use a dump to activate and deactivate an experimental feature. Users will be clearly informed about this in the related GitHub discussion
+- API can break between 2 versions of Meilisearch. People using the experimental feature in production should pay extra attention to it.
+- Some experimental features might require re-indexing. In these cases, users will have to use a dump to activate and deactivate an experimental feature. Users will be clearly informed about this in the related GitHub discussion
 
 > ⚠️ Since this process is not mature yet, users might experience issues with their DB when deactivating these features even when using a dump.<br>
 > We recommend users always save their data (with snapshots and/or dumps) before activating experimental features.
