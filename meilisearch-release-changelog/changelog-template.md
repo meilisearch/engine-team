@@ -10,9 +10,6 @@ Meilisearch v1.X introduces ... TBD
 
 Some SDKs might not include all new features—consult the project repository for detailed information. Is a feature you need missing from your chosen SDK? Create an issue letting us know you need it, or, for open-source karma points, open a PR implementing it (we'll love you for that ❤️).
 
-<!-- The following line should NOT be put in the official release changelogs, and the link should be added as soon as possible during the pre-release -->
-📖 Meilisearch's official documentation will be ready for the official v1.X.0 release. Meanwhile, work-in-progress documentation is available [here]().
-
 # New features and improvements 🔥
 TBD
 
