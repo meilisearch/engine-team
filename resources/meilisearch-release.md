@@ -110,6 +110,10 @@ It happens some releases come with impactful bugs in production (e.g. indexation
 1. Create a new release branch starting from the latest stable Meilisearch release (`latest` or `release-vX.Y.Z`).
 
 ```bash
+# Ensure you get all the current tags of the repository
+git fetch origin --tags --force
+
+# Create the branch
 git checkout latest
 git checkout -b release-vX.Y.Z
 git push -u origin release-vX.Y.Z
