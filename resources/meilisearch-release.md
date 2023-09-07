@@ -121,11 +121,13 @@ git push -u origin release-vX.Y.Z
 
 2. Open a [new GitHub Milestone `vX.Y.Z`](https://github.com/meilisearch/meilisearch/milestones) related to this new version.
 
-3. Open and merge the PRs (fixing your bugs): they should point to `release-vX.Y.Z`. Don't forget to change the version name in `Cargo.toml` files! You can use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
+3. Change the [version in `Cargo.toml` file](https://github.com/meilisearch/meilisearch/blob/e9b62aacb38f2c7a777adfda55293d407e0d6254/Cargo.toml#L21)! You can use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating the version in the `Cargo.toml` and `Cargo.lock` files will be created.
 
-4. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
+4. Open and merge the PRs (fixing your bugs): they should point to `release-vX.Y.Z` branch.
 
-5. Same as the official release, if needed, bring the new commits back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
+5. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
+
+6. Same as the official release, if needed, bring the new commits back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
 
 ## 🎈 Other library release process
 
