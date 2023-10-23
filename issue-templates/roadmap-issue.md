@@ -5,9 +5,11 @@ The purpose of this roadmap is to let anyone know about the different steps in t
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
-- [ ] The engine manager creates a new Milestone.
-- [ ] In the Milestone, the engine manager add the release date, but also the pre-release phase dates, and the sprint dates to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
-- [ ] A roadmap issue will automatically created. The engine manager pins this roadmap issue and updates the different dates in the issue description.
+
+- [ ] EM creates a new Milestone. This roadmap issue is automatically created.
+- [ ] EM pins this roadmap issue to the repository.
+- [ ] EM adds the release dates to this roadmap issue in the different sections.
+- [ ] EM add this roadmap issue link to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) description.
 - [ ] Planification of the next release content (features, improvements, bug fixes). Meeting with the whole engine team to discuss and agree on what we are going to put in the next release.
 - [ ] PM quickly shares the next release plan on #ms-release (internal Slack). It’s for information at this stage, nothing definitive.
 - [ ] Creation of PRDs.
