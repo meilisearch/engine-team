@@ -11,7 +11,6 @@ Ends: 20XX-XX-XX
 - [ ] EM adds the release dates to this roadmap issue in the different sections.
 - [ ] EM add this roadmap issue link to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) description.
 - [ ] Planification of the next release content (features, improvements, bug fixes). Meeting with the whole engine team to discuss and agree on what we are going to put in the next release.
-- [ ] PM quickly shares the next release plan on #ms-release (internal Slack). It’s for information at this stage, nothing definitive.
 - [ ] Creation of PRDs.
 - [ ] Engine team opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) and pinged the related teams on it. Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
 - [ ] EM updates the [delivery table of the team](https://www.notion.so/meilisearch/a30db6857c884703b25d6fcd625b97d2?v=a4b5caebc49c4d73a4526c0e51be6f23) (internal link) based on the just created issues. The goal is to clarify the priority of the sprint.
@@ -22,7 +21,7 @@ Ends: 20XX-XX-XX
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
-- [ ] EM posts a summary of the release dates on #ms-releases (internal  Slack), links the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>), and gives an overview of the main features.
+- [ ] PM posts a summary of the release #ms-releases (internal Slack): dates, release content, and each feature's motivation.
 - [ ] At the beginning of the Implementation Phase, sync meeting with team managers (docs, cloud and integration) about the current implemented release.
 - [ ] Engine team implements the planned content of the release according to the PRD. The code changes are merged into the `main` branch. If needed, prototypes will be shared with the users. According to their feedback, we might apply changes to the related feature.
 - [ ] EM checks with the mini-dashboard maintainer if a new version of the mini-dashboard has been released and if we want to integrate it.
