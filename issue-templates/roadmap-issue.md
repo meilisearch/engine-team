@@ -14,7 +14,7 @@ Ends: 20XX-XX-XX
 - [ ] PM quickly shares the next release plan on #ms-release (internal Slack). It’s for information at this stage, nothing definitive.
 - [ ] Creation of PRDs.
 - [ ] Engine team opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) and pinged the related teams on it. Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
-- [ ] The engine manager creates a [GitHub project view](https://github.com/orgs/meilisearch/projects/24/views/5) based on the just created issues. Not all of them should be added to the view, only the new features and improvements. The goal is to clarify the priority of the sprint.
+- [ ] EM updates the [delivery table of the team](https://www.notion.so/meilisearch/a30db6857c884703b25d6fcd625b97d2?v=a4b5caebc49c4d73a4526c0e51be6f23) (internal link) based on the just created issues. The goal is to clarify the priority of the sprint.
 - [ ] At the end of the Draft phase, the PM and the engine manager review together and agree on a firm version of the next release plan. The PM provides the firm version of the PRDs, which means the developers have enough information to begin the implementation phase.
 
 # Implementation phase (weeks 5-8)
