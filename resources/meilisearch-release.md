@@ -129,6 +129,12 @@ git push -u origin release-vX.Y.Z
 
 6. Same as the official release, if needed, bring the new commits back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
 
+⚠️ <ins>If doing a patch release that should NOT be the `latest` release</s>:
+
+- Do NOT check `Set as the latest release` when creating the GitHub release. If you did, quickly interrupt all CIs and delete the GitHub release!
+- Once the release is created, you don't have to care about Homebrew, APT and Docker CIs: they will not consider this new release as the latest; the CIs are already adapted for this situation.
+- However, the [CI updating the `latest` git tag](https://github.com/meilisearch/meilisearch/actions/workflows/latest-git-tag.yml) is not working for this situation currently and will attach the `latest` git tag to the just-created release, which is something we don't want! If you don't succeed in stopping the CI on time, don't worry, you just have to re-run the [old CI](https://github.com/meilisearch/meilisearch/actions/workflows/latest-git-tag.yml) corresponding to the real latest release, and the `latest` git tag will be attached back to the right commit.
+
 ## 🎈 Other library release process
 
 The release process of other repositories maintained by the engine team is described in the corresponding CONTRIBUTING.md of each repository.
