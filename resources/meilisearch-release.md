@@ -103,6 +103,7 @@ In this case, you need to bring them back from `release-vX.Y.Z` to `main` by cre
 
 Instead:
 - Create a new branch originating `release-vX.Y.Z`, like `tmp-release-vX.Y.Z`
+- Create a PR from the `tmp-release-vX.Y.Z` branch and pointing to `main`
 - Fix the git conflicts on this new branch
     - By either creating a Pull Request and merging throught the GitHub interface
     - By pulling the `main` branch into `temp-release-vX.Y.Z`
