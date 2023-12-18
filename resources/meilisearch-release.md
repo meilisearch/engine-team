@@ -95,13 +95,19 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 
 Some commits might miss to `main` since the engine-team did some hotfixes merged to the `release-vX.Y.Z` branch.
 
-In this case, you need to bring them back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
+In this case, you need to bring them back from `release-vX.Y.Z` to `main` by creating and merging a PR originating `release-vX.Y.Z` and pointing to `main`.
 
 ⚠️ If you encounter any git conflicts when creating the PR, please do NOT fix the git conflicts directly on the `release-vX.Y.Z` branch. It would bring the changes present in `main` into `release-vX.Y.Z`, which would break a potential future patched release.
+
+![GitHub interface showing merge conflicts](../assets/merge-conflicts.png)
+
 Instead:
 - Create a new branch originating `release-vX.Y.Z`, like `tmp-release-vX.Y.Z`
+- Create a PR from the `tmp-release-vX.Y.Z` branch and pointing to `main`
 - Fix the git conflicts on this new branch
-- Merge this new branch into `main`
+    - By either fixing the git conflict via the GitHub interface
+    - By pulling the `main` branch into `temp-release-vX.Y.Z` and fixing them on your machine.
+- Merge this new PR into `main`
 
 ### How to do patched release (following hotfixes)
 
