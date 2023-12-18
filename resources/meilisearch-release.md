@@ -107,7 +107,7 @@ Instead:
 - Fix the git conflicts on this new branch
     - By either fixing the git conflict via the GitHub interface
     - By pulling the `main` branch into `temp-release-vX.Y.Z`
-- Merge this new branch into `main`
+- Merge this new PR into `main`
 
 ### How to do patched release (following hotfixes)
 
