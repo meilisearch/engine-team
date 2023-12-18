@@ -105,7 +105,7 @@ Instead:
 - Create a new branch originating `release-vX.Y.Z`, like `tmp-release-vX.Y.Z`
 - Create a PR from the `tmp-release-vX.Y.Z` branch and pointing to `main`
 - Fix the git conflicts on this new branch
-    - By either creating a Pull Request and merging throught the GitHub interface
+    - By either fixing the git conflict via the GitHub interface
     - By pulling the `main` branch into `temp-release-vX.Y.Z`
 - Merge this new branch into `main`
 
