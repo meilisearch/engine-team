@@ -95,7 +95,7 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 
 Some commits might miss to `main` since the engine-team did some hotfixes merged to the `release-vX.Y.Z` branch.
 
-In this case, you need to bring them back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
+In this case, you need to bring them back from `release-vX.Y.Z` to `main` by creating and merging a PR originating `release-vX.Y.Z` and pointing to `main`.
 
 ⚠️ If you encounter any git conflicts when creating the PR, please do NOT fix the git conflicts directly on the `release-vX.Y.Z` branch. It would bring the changes present in `main` into `release-vX.Y.Z`, which would break a potential future patched release.
 
