@@ -26,6 +26,7 @@ The engine team owns all the repositories related to the engine-engine:
 - [**lmdb**](https://github.com/meilisearch/lmdb): a fork of [LMDB/lmdb](https://github.com/LMDB/lmdb).
 - [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch.
 - [**Deserr**](https://github.com/meilisearch/deserr/): a crate for deserializing data, with the ability to return custom, type-specific errors upon failure
+- [**Arroy**](https://github.com/meilisearch/arroy): search for vectors in space that are close to a given query vector, with the interface of [Annoy](https://github.com/spotify/annoy/#full-python-api).
 
 For testing:
 
