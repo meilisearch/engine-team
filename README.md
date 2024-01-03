@@ -36,8 +36,6 @@ For testing:
 Misc:
 
 - [**external-benchmarks**](https://github.com/meilisearch/external-benchmarks) (private only): benchmarks applied on concrete usecase to measure the impact of the engine team.
-- [**Devspector**](https://github.com/meilisearch/devspector): website using Meilisearch to search into the specification repository, on the [`develop` branch](https://github.com/meilisearch/specifications/tree/develop). Visit [this website](https://specs.meilisearch.dev/).
-- [**Mainspector**](https://github.com/meilisearch/devspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
 - [**Madness**](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
 - [**segseg**](https://github.com/meilisearch/segseg): a POC of a segment based search engine
 
@@ -52,6 +50,8 @@ Archived repositories:
   - [**raft-metrics**](https://github.com/meilisearch/raft-metrics) (private only)
 - [**Nelson**](https://github.com/meilisearch/nelson/): small mocking library for Rust. Used in the past in the Meilisearch test suite.
 - [**meili-aoc**](https://github.com/meilisearch/meili-aoc) (internal): Advent of Code repository
+- [**Devspector**](https://github.com/meilisearch/devspector): website using Meilisearch to search into the specification repository, on the [`develop` branch](https://github.com/meilisearch/specifications/tree/develop). Visit [this website](https://specs.meilisearch.dev/).
+- [**Mainspector**](https://github.com/meilisearch/devspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
 
 # TOC
 
