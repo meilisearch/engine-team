@@ -22,7 +22,7 @@ Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
 - [ ] PM posts a summary of the release #ms-releases (internal Slack): dates, release content, and each feature's motivation.
-- [ ] At the beginning of the Implementation Phase, sync meeting with team managers (docs, cloud and integration) about the current implemented release.
+- [ ] EM creates notes about the current implemented release to detail each planned issue (the usage, the PRD, the Slack channel, the risks...) and shares them to #ms-release.
 - [ ] Engine team implements the planned content of the release according to the PRD. The code changes are merged into the `main` branch. If needed, prototypes will be shared with the users. According to their feedback, we might apply changes to the related feature.
 - [ ] EM checks with the mini-dashboard maintainer if a new version of the mini-dashboard has been released and if we want to integrate it.
 - [ ] [Specifications](https://github.com/meilisearch/specifications/pulls) of each feature should be provided by the end of the sprint.
@@ -37,7 +37,7 @@ Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
 - [ ] Engine team releases the first RC (release candidate) using the prepared changelogs.
-- [ ] At the beginning of the Pre-release phase, sync meeting with team managers (docs, cloud and integration) about the coming release. It’s an opportunity to plan and identify the parts where sync will be needed between the different teams during the Pre-release Phase.
+- [ ] EM creates notes about the just implemented release to detail each solved issue (the usage, the PRD, the Slack channel, the results...) and shares them to #ms-release.
 - [ ] At the beginning of the Pre-release Phase, the PM and EM communicate (on issues) about the RC to encourage people to test them. If needed, they also sync with DevRel team for some communication on Discord for the community.
 - [ ] SDKs are updated according to the new Meilisearch release.
 - [ ] Docs team updates the documentation to reflect the changes of the new Meilisearch release.
