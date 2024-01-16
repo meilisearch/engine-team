@@ -21,7 +21,6 @@ Ends: 20XX-XX-XX
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
-- [ ] PM posts a summary of the release #ms-releases (internal Slack): dates, release content, and each feature's motivation.
 - [ ] EM creates notes about the current implemented release to detail each planned issue (the usage, the PRD, the Slack channel, the risks...) and shares them to #ms-release.
 - [ ] Engine team implements the planned content of the release according to the PRD. The code changes are merged into the `main` branch. If needed, prototypes will be shared with the users. According to their feedback, we might apply changes to the related feature.
 - [ ] EM checks with the mini-dashboard maintainer if a new version of the mini-dashboard has been released and if we want to integrate it.
