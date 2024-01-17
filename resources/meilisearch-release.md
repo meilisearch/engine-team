@@ -32,11 +32,21 @@ git checkout -b release-vX.Y.Z
 git push -u origin release-vX.Y.Z
 ```
 
-4. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
+4. Copy/paste this TODO steps on your side
+<details>
+<summary>RC todo</summary>
+- [ ] Launch RC on the GitHub interface</br>
+- [ ] Adapt changelog in the <a href=https://github.com/meilisearch/engine-team/pulls>related PR</a>: make a commit suggestion, or, if too big, open a PR.</br>
+- [ ] Check binaries and Docker images are ready: check the assets are attached to the release + run the Docker image on your machine to ensure it starts correctly (at least)</br>
+- [ ] Manually run <a href=https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml>SDK tests</a> with the new RC, and ensure the failing tests are expected</br>
+- [ ] Make a message on #ms-release to announce the new RC: highlight the new changes if impactful for other teams, and link the link of the release.</br>
+</details>
 
-5. Click on the `Draft a new release` button
+6. Go to the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
 
-6. Fill the form with:
+7. Click on the `Draft a new release` button
+
+8. Fill the form with:
 - the title of the release: `vX.Y.Z-rc.0`
 - the tag associated to the release: should be `vX.Y.Z-rc.0`
 - ⚠️ the branch on which to push the tag: `release-vX.Y.Z`. Do not push the tag to `main`!
@@ -45,11 +55,13 @@ git push -u origin release-vX.Y.Z
 
 ![GH release form](../assets/gh-pre-release.png)
 
-7. Finally, when you are sure, click on the `Publish release` button.
+8. Finally, when you are sure, click on the `Publish release` button.
 
 ⚙️ The CIs will be triggered to:
 - upload binaries to the associated GitHub pre-release.
 - publish the associated Docker image (`vX.Y.Z`) to DockerHub.
+
+9. Ensure you made all steps in the TODO you copied/pasted at step 4.
 
 ### What if some bugs are in the RC?
 
@@ -60,7 +72,7 @@ git push -u origin release-vX.Y.Z
 ### How to release the next RCs
 
 When all/enough hotfixes have been done to the `release-vX.Y.Z` branch, create a new RC.
-The steps are the same as for `How to create the first pre-release (or RC i.e. Release Candidate)` but starting from the step 4 and with the new RC name.
+The steps are the same as for `How to create the first pre-release (or RC i.e. Release Candidate)` but starting from step 4 and with the new RC name.
 
 ## 🔥 Meilisearch official release
 
