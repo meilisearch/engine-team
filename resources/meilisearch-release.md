@@ -51,7 +51,7 @@ git push -u origin release-vX.Y.Z
 - the tag associated to the release: should be `vX.Y.Z-rc.0`
 - ⚠️ the branch on which to push the tag: `release-vX.Y.Z`. Do not push the tag to `main`!
 - the description: add as many details as possible: the PRs, the authors, the new usage, the external contributors we want to thank...
-- ⚠️ the `This is a pre-release` check box
+- ⚠️⚠️ the `This is a pre-release` check box
 
 ![GH release form](../assets/gh-pre-release.png)
 
@@ -78,32 +78,40 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 
 ### How to do the official release
 
-1. Go the the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
+1. Copy/paste this TODO steps on your side
+<details>
+<summary>Release todo</summary>
+- [ ] Launch the release on the GitHub interface</br>
+- [ ] Check binaries and Docker images are ready: check the assets are attached to the release + run the Docker image on your machine to ensure it starts correctly (at least)</br>
+- [ ] Check the <a href="https://github.com/Homebrew/homebrew-core/pulls">Homebrew PR</a> has been created.</br>
+- [ ] Once everything is deployed, make a message on #ms-release to announce the new release: ping integration-team and docs-team since they should deploy their own scope now.</br>
+- [ ] Bring back commits on the `release-vX.Y.Z` into `main` (cf <a href="https://github.com/meilisearch/engine-team/blob/main/resources/meilisearch-release.md#after-the-release-bring-back-changes-to-main">this section</a>)</br>
+</details>
 
-2. Click on the `Draft a new release` button
+2. Go to the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
 
-3. Fill the form with:
+3. Click on the `Draft a new release` button
+
+4. Fill the form with:
 - The title of the release: `vX.Y.Z`
 - The tag associated to the release: should be `vX.Y.Z`
 - ⚠️ The branch on which to push the release: `release-vX.Y.Z`. Do not push the tag to `main`!
-- The description. Add as many details as possible: the PRs, the authors, new usage examples, the external contributors we want to thank...
+- The description: use the changelogs in [the related PR](https://github.com/meilisearch/engine-team/pulls). ⚠️ Some lines of the changelogs must be removed; check carefully the comments and if there is any remaining `TBD`.
 - Check the `Set as the latest release`
-- Check the `Create a discussion for these release` if necessary (not for patch releases)
 
 ![GH release form](../assets/gh-release.png)
 
 5. Finally, when you are sure, click on the `Publish release` button.
-6. If you have chosen to create a discussion, go to the newly created one and
-  - Add a small introduction section at the top of the description. Refer to [this one](https://github.com/meilisearch/meilisearch/discussions/3459) as an example
-  - Pin the discussion (and unpin the old one about the previous release)
 
 ⚙️ The CIs will be triggered to:
-- upload binaries to the associated GitHub release.
-- publish the Docker images (`latest`, `vX.Y` and `vX.Y.Z`) to DockerHub.
-- publish binaries for Homebrew and APT
-- move the `latest` git tag to the release commit.
+- [Upload binaries](https://github.com/meilisearch/meilisearch/actions/workflows/publish-binaries.yml) to the associated GitHub release.
+- [Publish the Docker images](https://github.com/meilisearch/meilisearch/actions/workflows/publish-docker-images.yml) (`latest`, `vX.Y` and `vX.Y.Z`) to DockerHub -> check the "Docker meta" steps in the CI to check the right tags are created
+- [Publish binaries for Homebrew and APT](https://github.com/meilisearch/meilisearch/actions/workflows/publish-apt-brew-pkg.yml)
+- [Move the `latest` git tag to the release commit](https://github.com/meilisearch/meilisearch/actions/workflows/latest-git-tag.yml).
 
-### After the release
+6. Ensure you complete all the TODO tasks you copied/pasted at step 1.
+
+### After the release: bring back changes to `main`
 
 Some commits might miss to `main` since the engine-team did some hotfixes merged to the `release-vX.Y.Z` branch.
 
