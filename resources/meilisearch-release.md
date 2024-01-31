@@ -50,7 +50,7 @@ git push -u origin release-vX.Y.Z
 - the title of the release: `vX.Y.Z-rc.0`
 - the tag associated to the release: should be `vX.Y.Z-rc.0`
 - ⚠️ the branch on which to push the tag: `release-vX.Y.Z`. Do not push the tag to `main`!
-- the description: add as many details as possible: the PRs, the authors, the new usage, the external contributors we want to thank...
+- the description: add as many details as possible (link the PRs, the authors of PR, the new usage, the external contributors we want to thank...)
 - ⚠️⚠️ the `This is a pre-release` check box
 
 ![GH release form](../assets/gh-pre-release.png)
@@ -96,7 +96,9 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 - The title of the release: `vX.Y.Z`
 - The tag associated to the release: should be `vX.Y.Z`
 - ⚠️ The branch on which to push the release: `release-vX.Y.Z`. Do not push the tag to `main`!
-- The description: use the changelogs in [the related PR](https://github.com/meilisearch/engine-team/pulls). ⚠️ Some lines of the changelogs must be removed; check carefully the comments and if there is any remaining `TBD`.
+- The description:
+    - For non-patch release: use the changelogs in [the related PR](https://github.com/meilisearch/engine-team/pulls). ⚠️ Some lines of the changelogs must be removed; check the comments carefully and if there is any remaining `TBD`.
+    - For patch release: add as many details as possible (link the PRs, the authors of PR, the new usage, the external contributors we want to thank...)
 - Check the `Set as the latest release`
 
 ![GH release form](../assets/gh-release.png)
