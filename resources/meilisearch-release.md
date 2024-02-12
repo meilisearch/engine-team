@@ -15,7 +15,7 @@ At the end of the pre-release phase, the official release is published.
 In the Meilisearch repository:
 
 1. Ensure:
-- the version of Meilisearch in the `Cargo.toml` files has been updated. Use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
+- the version of Meilisearch in the `Cargo.toml` files on the `main` branch has been updated. Use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
 - A [GitHub Milestone](https://github.com/meilisearch/meilisearch/milestones) has been opened for this new version.
 
 2. Make sure you are on the `main` branch and pull the last commits:
@@ -25,7 +25,7 @@ git checkout main
 git pull origin main
 ```
 
-3. Create a release branch named `release-vX.Y.Z` where `X.X.X` is the new version and push this branch
+3. Create a release branch named `release-vX.Y.Z` where `X.Y.Z` is the new version and push this branch
 
 ```bash
 git checkout -b release-vX.Y.Z
@@ -51,7 +51,11 @@ git push -u origin release-vX.Y.Z
 - the tag associated to the release: should be `vX.Y.Z-rc.0`
 - ⚠️ the branch on which to push the tag: `release-vX.Y.Z`. Do not push the tag to `main`!
 - the description:
-    - if `rc0`: use the changelogs in [the related PR](https://github.com/meilisearch/engine-team/pulls). ⚠️ Some lines of the changelogs must be removed; check the comments carefully and if there is any remaining `TBD`. Also, remove the title of the changelogs ("vX.Y.Z release changelogs").
+    - if `rc0`: use the changelogs in [the related PR](https://github.com/meilisearch/engine-team/pulls).
+        - ⚠️ Some lines of the changelogs must be removed; check the comments carefully
+        - ⚠️ Remove any remaining `TBD`.
+        - remove the title of the changelogs ("vX.Y.Z release changelogs").
+        - And don't forget, anything that is not **currently merged** in meilisearch should not be part of the changelog (i.e., We merged something in charabia but didn’t update charabia in meilisearch => not mentioned in the changelog yet but will probably be in the next RC).
     - if not `rc0`: add as many details as possible (link the PRs, the authors of PR, the new usage, the external contributors we want to thank...)
 - ⚠️⚠️ the `This is a pre-release` check box
 
