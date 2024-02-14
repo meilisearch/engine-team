@@ -105,7 +105,7 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 - The description:
     - For non-patch release: use the changelogs in [the related PR](https://github.com/meilisearch/engine-team/pulls). ⚠️ Some lines of the changelogs must be removed; check the comments carefully and if there is any remaining `TBD`. Also, remove the title of the changelogs ("vX.Y.Z release changelogs").
     - For patch release: add as many details as possible (link the PRs, the authors of PR, the new usage, the external contributors we want to thank...)
-- Check the `Set as the latest release`
+- Check the `Set as the latest release` (if it indeed should be considered as the latest)
 
 ![GH release form](../assets/gh-release.png)
 
