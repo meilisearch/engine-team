@@ -13,13 +13,13 @@ Some SDKs might not include all new features—consult the project repository fo
 
 # New features and improvements 🔥
 
-## Main feature 1
+## <TBD: Title of the main feature 1>
 
 <TBD: Detailed usage of the feature>
 
 Done by <TDB: author of the PR> in <TBD: number of the PR as #XXXX>.
 
-## Main feature 2
+## <TBD: Title of the main feature 2>
 
 ...
 
