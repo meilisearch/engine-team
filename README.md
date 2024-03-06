@@ -35,6 +35,7 @@ For testing:
 
 Misc:
 
+- [**Bench board**](https://github.com/meilisearch/benchboard): benchmark dashboard that displays results of benchmark runs and allow to compare results across commits and workloads.
 - [**external-benchmarks**](https://github.com/meilisearch/external-benchmarks) (private only): benchmarks applied on concrete usecase to measure the impact of the engine team.
 - [**Madness**](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
 - [**segseg**](https://github.com/meilisearch/segseg): a POC of a segment based search engine
