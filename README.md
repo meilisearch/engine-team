@@ -40,6 +40,7 @@ Misc:
 - [**Madness**](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
 - [**segseg**](https://github.com/meilisearch/segseg): a POC of a segment based search engine
 - [**Mainspector**](https://github.com/meilisearch/mainspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
+- [**Open API**](https://github.com/meilisearch/open-api): a repository containing the OpenAPI file related to Meilisearch API.
 
 
 Archived repositories:
