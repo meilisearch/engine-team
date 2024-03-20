@@ -43,6 +43,7 @@ Ends: 20XX-XX-XX
 - [ ] According to feedback and bug reports, the engine team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
 - [ ] DevRel team writes a blog post “What’s new in <<version>>?”.
 - [ ] Review the blog post.
+- [ ] Engine team updates the [Open API file](https://github.com/meilisearch/open-api/blob/main/open-api.yaml). The PR must be reviewed by the PM.
 - [ ] Engine team ensures the feature usages described in PRDs are up-to-date with the latest changes made during pre-release.
 - [ ] Engine team creates/updates a product discussion for the experimental features released during the sprint.
 
