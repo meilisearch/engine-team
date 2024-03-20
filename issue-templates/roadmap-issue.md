@@ -44,6 +44,7 @@ Ends: 20XX-XX-XX
 - [ ] DevRel team writes a blog post “What’s new in <<version>>?”.
 - [ ] Review the blog post.
 - [ ] Engine team ensures the feature usages described in PRDs are up-to-date with the latest changes made during pre-release.
+- [ ] Engine team creates/updates a product discussion for the experimental features released during the sprint.
 
 # Release phase (week 13)
 
