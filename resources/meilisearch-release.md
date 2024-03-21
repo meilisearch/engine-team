@@ -161,7 +161,7 @@ git push -u origin release-vX.Y.Z
 
 5. Follow all the steps in the ["How to do the official release" section](#how-to-do-the-official-release) with the patched version name.
 
-6. Same as the official release, if needed, bring the new commits back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`.
+6. Same as the official release, if needed, bring the new commits back from `release-vX.Y.Z` to `main` by merging a PR originating `release-vX.Y.Z` and pointing to `main`. If you encounter any merge conflict please [refer to this point](#after-the-release-bring-back-changes-to-main).
 
 ⚠️ <ins>If doing a patch release that should NOT be the `latest` release</s>:
 
