@@ -16,7 +16,9 @@
   <a href="https://docs.meilisearch.com/faq/">FAQ</a>
 </h4>
 
-The engine team owns all the repositories related to the engine-engine:
+The engine team owns all the following repositories:
+
+Main ones used to build Meilisearch:
 
 - [**Meilisearch**](https://github.com/meilisearch/meilisearch): the main Engine team repository containing the search engine.
 - [**Charabia**](https://github.com/meilisearch/charabia/): the tokenizer used by the search engine (in Meilisearch and in Milli).
@@ -40,8 +42,8 @@ Misc:
 - [**Madness**](https://github.com/meilisearch/madness): library for mDNS service discovery and advertisement. Not used by Meilisearch currently.
 - [**segseg**](https://github.com/meilisearch/segseg): a POC of a segment based search engine
 - [**Mainspector**](https://github.com/meilisearch/mainspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
+- [**Strois**](https://github.com/meilisearch/strois): an S3 synchronous SDK based on rusty_s3 and ureq.
 - [**Open API**](https://github.com/meilisearch/open-api): a repository containing the OpenAPI file related to Meilisearch API.
-
 
 Archived repositories:
 
