@@ -44,6 +44,7 @@ Misc:
 - [**Mainspector**](https://github.com/meilisearch/mainspector): same as Devspector but on the [`main` branch](https://github.com/meilisearch/specifications). Visit [this website](https://specs.meilisearch.com/).
 - [**Strois**](https://github.com/meilisearch/strois): an S3 synchronous SDK based on rusty_s3 and ureq.
 - [**Open API**](https://github.com/meilisearch/open-api): a repository containing the OpenAPI file related to Meilisearch API.
+- [**Meilisearch importer](https://github.com/meilisearch/meilisearch-importer): a tool to easily import millions of documents into Meilisearch.
 
 Archived repositories:
 
