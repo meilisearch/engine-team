@@ -141,7 +141,7 @@ Instead:
 
 It happens some releases come with impactful bugs in production (e.g. indexation or search issues): we obviously don't wait for the next cycle to fix them and we release a patched version of Meilisearch.
 
-1. Create a new release branch starting from the latest stable Meilisearch release (`latest` or `release-vX.Y.Z`).
+1. Create a new release branch starting from the latest stable Meilisearch release (`latest` git tag or `release-vX.Y.Z` branch).
 
 ```bash
 # Ensure you get all the current tags of the repository
