@@ -148,8 +148,8 @@ It happens some releases come with impactful bugs in production (e.g. indexation
 git fetch origin --tags --force
 
 # Create the branch
-git checkout latest
-git checkout -b release-vX.Y.Z
+git checkout release-vX.Y.Z # The latest release you want to patch
+git checkout -b release-vX.Y.Z # Increase the Z here
 git push -u origin release-vX.Y.Z
 ```
 
