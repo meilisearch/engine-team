@@ -37,7 +37,7 @@ Ends: 20XX-XX-XX
 - [ ] Engine team releases the first RC (release candidate) using the prepared changelogs.
 - [ ] EM creates notes about the just implemented release to detail each solved issue (the usage, the PRD, the Slack channel, the results...) and shares them to #ms-release.
 - [ ] Integration and docs organize their preparation for the release.
-- [ ] At the beginning of the Pre-release Phase, the PM and EM communicate (on issues) about the RC to encourage people to test them. If needed, they also sync with DevRel team for some communication on Discord for the community.
+- [ ] At the beginning of the Pre-release Phase, the PM on Product discussions about the RC to encourage people to test them. If needed, they also sync with DevRel team for some communication on Discord for the community.
 - [ ] SDKs are updated according to the new Meilisearch release.
 - [ ] Docs team updates the documentation to reflect the changes of the new Meilisearch release.
 - [ ] According to feedback and bug reports, the engine team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
