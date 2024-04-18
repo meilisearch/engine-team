@@ -9,9 +9,9 @@ Meilisearch v1.X introduces <TBD: quick summary of the main changes of the relea
 🧰 All official Meilisearch integrations (including SDKs, clients, and other tools) are compatible with this Meilisearch release. Integration deployment happens between 4 to 48 hours after a new version becomes available.
 
 <!-- The following lines should NOT be put in the PRE-release changelogs -->
-Some SDKs might not include all new features—consult the project repository for detailed information. Is a feature you need missing from your chosen SDK? Create an issue letting us know you need it, or, for open-source karma points, open a PR implementing it (we'll love you for that ❤️).
+Some SDKs might not include all new features. Consult the project repository for detailed information. Is a feature you need missing from your chosen SDK? Create an issue letting us know you need it, or, for open-source karma points, open a PR implementing it (we'll love you for that ❤️).
 
-# New features and improvements 🔥
+# New features and updates 🔥
 
 ## <TBD: Title of the main feature 1>
 
@@ -35,7 +35,7 @@ Done by <TDB: author of the PR> in <TBD: number of the PR as #XXXX>.
 
 # Misc
 
-* Dependencies upgrade
+* Dependencies updates
   * <TBD: short description of the PR> (<TBD: number of the PR as #XXXX) <TBD: author of the PR, as @github_login>
   * ...
 * CIs and tests
