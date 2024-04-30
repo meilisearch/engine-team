@@ -44,6 +44,7 @@ Ends: 20XX-XX-XX
 - [ ] DevRel team writes a blog post “What’s new in <<version>>?”.
 - [ ] Review the blog post.
 - [ ] Engine team updates the [Open API file](https://github.com/meilisearch/open-api/blob/main/open-api.yaml). The PR must be reviewed by the PM.
+- [ ] Engine manager updates the [Table of Truth](https://www.notion.so/meilisearch/Table-of-Truth-5b0a2494899c4202b3544034c6942dcc) (internal link) with PRDs, product discussions (for experimental features) and issues (if changed are applied and not related to any PRDs)
 - [ ] Engine team ensures the feature usages described in PRDs are up-to-date with the latest changes made during pre-release.
 - [ ] Engine team creates/updates a product discussion for the experimental features released during the sprint.
 
