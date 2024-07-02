@@ -113,7 +113,7 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 
 ⚙️ The CIs will be triggered to:
 - [Upload binaries](https://github.com/meilisearch/meilisearch/actions/workflows/publish-binaries.yml) to the associated GitHub release.
-- [Publish the Docker images](https://github.com/meilisearch/meilisearch/actions/workflows/publish-docker-images.yml) (`latest`, `vX.Y` and `vX.Y.Z`) to DockerHub -> check the "Docker meta" steps in the CI to check the right tags are created
+- [Publish the Docker images](https://github.com/meilisearch/meilisearch/actions/workflows/publish-docker-images.yml) (`latest`, `vX`, `vX.Y` and `vX.Y.Z`) to DockerHub -> check the "Docker meta" steps in the CI to check the right tags are created
 - [Publish binaries for Homebrew and APT](https://github.com/meilisearch/meilisearch/actions/workflows/publish-apt-brew-pkg.yml)
 - [Move the `latest` git tag to the release commit](https://github.com/meilisearch/meilisearch/actions/workflows/latest-git-tag.yml).
 
