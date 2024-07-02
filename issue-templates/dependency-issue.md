@@ -1,5 +1,12 @@
 This issue is about updating Meilisearch dependencies:
-  - [ ] Cargo toml dependencies of Meilisearch; but also the main engine-team repositories that Meilisearch depends on (charabia, heed...)
+  - [ ] In meilisearch:
+    - ⚠️ Some repositories may contain subdirectories (like heed, charabia, or deserr). Take care of updating these as well in the main crate. This won't be done automatically by `cargo ugrade`.
+    - [ ] [charabia](https://github.com/meilisearch/charabia/)
+    - [ ] [heed](https://github.com/meilisearch/heed/)
+    - [ ] [roaring-rs](https://github.com/RoaringBitmap/roaring-rs/)
+    - [ ] [grenad](https://github.com/meilisearch/grenad/)
+    - [ ] [deserr](https://github.com/meilisearch/deserr)
+    - [ ] Finally, [Meilisearch](https://github.com/meilisearch/MeiliSearch)
   - [ ] If new Rust versions have been released, update the minimal Rust version in use at Meilisearch:
     - [ ] in this [GitHub Action file](https://github.com/meilisearch/meilisearch/blob/main/.github/workflows/test-suite.yml), by changing the `toolchain` field of the `rustfmt` job to the latest available nightly (of the day before or the current day)
     - [ ] in this [`rust-toolchain.toml`](https://github.com/meilisearch/meilisearch/blob/main/rust-toolchain.toml), by changing the `channel` field to the latest stable version.
