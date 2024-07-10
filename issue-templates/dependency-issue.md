@@ -1,5 +1,5 @@
 This issue is about updating Meilisearch dependencies:
-  - [ ] Update Meilisearch dependencies - ⚠️ Some repositories may contain subdirectories (like heed, charabia, or deserr). Take care of updating these as well in the main crate. This won't be done automatically by `cargo ugrade`.
+  - [ ] Update Meilisearch dependencies with the help of `cargo +nightly udep --all-targets` (remove unused dependencies) and `cargo upgrade` (upgrade dependencies versions) - ⚠️ Some repositories may contain subdirectories (like heed, charabia, or deserr). Take care of updating these as well in the main crate. This won't be done automatically by `cargo ugrade`.
     - [ ] [charabia](https://github.com/meilisearch/charabia/)
     - [ ] [heed](https://github.com/meilisearch/heed/)
     - [ ] [roaring-rs](https://github.com/RoaringBitmap/roaring-rs/)
