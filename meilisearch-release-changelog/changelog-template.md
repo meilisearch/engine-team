@@ -1,7 +1,8 @@
 # v1.X.0 release changelogs
 
 <!-- The following line should ONLY be put PRE-release changelogs -->
-⚠️ Since this is a release candidate (RC), we do NOT recommend using it in a production environment. Is something not working as expected? We welcome [bug reports](https://github.com/meilisearch/meilisearch/issues/new/choose) and [feedback about new features](https://github.com/meilisearch/product/discussions).
+> [!WARNING]
+> Since this is a release candidate (RC), we do NOT recommend using it in a production environment. Is something not working as expected? We welcome [bug reports](https://github.com/meilisearch/meilisearch/issues/new/choose) and [feedback about new features](https://github.com/meilisearch/product/discussions).
 
 Meilisearch v1.X introduces <TBD: quick summary of the main changes of the release>.
 
