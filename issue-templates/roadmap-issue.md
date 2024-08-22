@@ -5,7 +5,6 @@ The purpose of this roadmap is to let anyone know about the different steps in t
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
-
 - [ ] EM creates a new Milestone. This roadmap issue is automatically created.
 - [ ] EM pins this roadmap issue to the repository.
 - [ ] EM adds the release dates to this roadmap issue in the different sections.
@@ -52,11 +51,11 @@ Ends: 20XX-XX-XX
 
 Release date: 20XX-XX-XX
 
-- [ ] Engine team releases the official version and lets the other teams know when the binary and the Docker images are available on #ms-releases (internal Slack).
-- [ ] Deployment of the new documentation.
-- [ ] Release of all the updated integrations.
-- [ ] DevRel team takes care of external communications (blog, socials, etc) when all release assets, documentation and integrations are ready.
+- [ ] Engine team releases the official version and lets the other teams know when the binary and the Docker images are available on #ms-releases (internal Slack). 
+The following teams must be pinged: documentation, integration, devrel, and cloud to ensure the deployment of their activities on their side.
 - [ ] Engine team brings changes from `release-vX.Y.Z` branch of Meilisearch into the `main` branch.
-- [ ] Close every part relating to the release in the [product repository](https://github.com/meilisearch/product/): discussions, issues...
+- [ ] PM closes every part relating to the release in the [product repository](https://github.com/meilisearch/product/)
 - [ ] Unpin this current roadmap issue.
-- [ ] Close the release [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
+- [ ] EM merges the [changelogs PR](https://github.com/meilisearch/engine-team/pulls).
+- [ ] EM ensures all the issues in the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) are closed or removed from the Milestone (including this issue when everything is done).
+- [ ] EM close the release [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
