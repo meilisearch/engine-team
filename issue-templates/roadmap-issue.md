@@ -58,4 +58,4 @@ The following teams must be pinged: documentation, integration, devrel, and clou
 - [ ] Unpin this current roadmap issue.
 - [ ] EM merges the [changelogs PR](https://github.com/meilisearch/engine-team/pulls).
 - [ ] EM ensures all the issues in the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) are closed or removed from the Milestone (including this issue when everything is done).
-- [ ] EM close the release [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
+- [ ] EM closes the release [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
