@@ -45,6 +45,7 @@ Misc:
 - [**Strois**](https://github.com/meilisearch/strois): an S3 synchronous SDK based on rusty_s3 and ureq.
 - [**Open API**](https://github.com/meilisearch/open-api): a repository containing the OpenAPI file related to Meilisearch API.
 - [**Meilisearch importer**](https://github.com/meilisearch/meilisearch-importer): a tool to easily import millions of documents into Meilisearch.
+- [**vector-store-relevancy-benchmark**](https://github.com/meilisearch/vector-store-relevancy-benchmark): to test the relevancy of the hybrid search.
 
 Archived repositories:
 
