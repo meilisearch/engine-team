@@ -25,7 +25,7 @@ Ends: 20XX-XX-XX
 - [ ] EM checks with the mini-dashboard maintainer if a new version of the mini-dashboard has been released and if we want to integrate it.
 - [ ] Usage of each feature should be provided in the related PRD (if no PRD, in the GitHub issue) by the end of the sprint.
 - [ ] EM writes the changelog for the release.
-- [ ] Review of the changelogs by engine team developers (for the technical information), PM (for the feature promotion) and docs team for English expression.
+- [ ] Review of the changelogs by engine team developers (for the technical information), & PM (for the feature promotion).
 - [ ] At the end of the phase, if features are missing or are not ready to be integrated into the release, EM should inform the other teams on #ms-releases (internal Slack). The not-ready issues for the sprint should be removed from the Milestone.
 
 # Pre-release phase (weeks 9-12)
@@ -40,6 +40,7 @@ Ends: 20XX-XX-XX
 - [ ] SDKs are updated according to the new Meilisearch release.
 - [ ] Docs team updates the documentation to reflect the changes of the new Meilisearch release.
 - [ ] According to feedback and bug reports, the engine team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
+- [ ] Docs team reviews the final changelogs.
 - [ ] DevRel team writes a blog post “What’s new in <<version>>?”.
 - [ ] Review the blog post.
 - [ ] Engine team updates the [Open API file](https://github.com/meilisearch/open-api/blob/main/open-api.yaml). The PR must be reviewed by the PM.
