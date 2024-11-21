@@ -20,7 +20,6 @@ Ends: 20XX-XX-XX
 Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
-- [ ] EM creates notes about the current implemented release to detail each planned issue (the usage, the PRD, the Slack channel, the risks...) and shares them to #ms-release.
 - [ ] Engine team implements the planned content of the release according to the PRD. The code changes are merged into the `main` branch. If needed, prototypes will be shared with the users. According to their feedback, we might apply changes to the related feature.
 - [ ] EM checks with the mini-dashboard maintainer if a new version of the mini-dashboard has been released and if we want to integrate it.
 - [ ] Usage of each feature should be provided in the related PRD (if no PRD, in the GitHub issue) by the end of the sprint.
@@ -34,7 +33,6 @@ Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
 - [ ] Engine team releases the first RC (release candidate) using the prepared changelogs.
-- [ ] EM creates notes about the just implemented release to detail each solved issue (the usage, the PRD, the Slack channel, the results...) and shares them to #ms-release.
 - [ ] Integration and docs organize their preparation for the release.
 - [ ] At the beginning of the Pre-release Phase, the PM on Product discussions about the RC to encourage people to test them. If needed, they also sync with DevRel team for some communication on Discord for the community.
 - [ ] SDKs are updated according to the new Meilisearch release.
