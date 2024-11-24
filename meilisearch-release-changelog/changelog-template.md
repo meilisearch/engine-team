@@ -42,9 +42,6 @@ Done by <TDB: author of the PR> in <TBD: number of the PR as #XXXX>.
 * CIs and tests
   * <TBD: short description of the PR> (<TBD: number of the PR as #XXXX) <TBD: author of the PR, as @github_login>
   * ...
-* Documentation
-  * <TBD: short description of the PR> (<TBD: number of the PR as #XXXX) <TBD: author of the PR, as @github_login>
-  * ...
 * Misc
   * <TBD: short description of the PR> (<TBD: number of the PR as #XXXX) <TBD: author of the PR, as @github_login>
   * ...
