@@ -8,7 +8,6 @@ Ends: 20XX-XX-XX
 - [ ] EM creates a new Milestone. This roadmap issue is automatically created.
 - [ ] EM pins this roadmap issue to the repository.
 - [ ] EM adds the release dates to this roadmap issue in the different sections.
-- [ ] EM add this roadmap issue link to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) description.
 - [ ] Planification of the next release content (features, improvements, bug fixes). Meeting with the whole engine team to discuss and agree on what we are going to put in the next release.
 - [ ] Creation of PRDs.
 - [ ] Engine team opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) and pinged the related teams on it. Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
@@ -21,9 +20,9 @@ Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
 - [ ] Engine team implements the planned content of the release according to the PRD. The code changes are merged into the `main` branch. If needed, prototypes will be shared with the users. According to their feedback, we might apply changes to the related feature.
-- [ ] EM checks with the mini-dashboard maintainer if a new version of the mini-dashboard has been released and if we want to integrate it.
+- [ ] EM checks if a new version of the mini-dashboard has been released (or should be) and if we want to integrate it. If yes, EM opens an issue to ensure the integration of this change into the release.
 - [ ] Usage of each feature should be provided in the related PRD (if no PRD, in the GitHub issue) by the end of the sprint.
-- [ ] EM writes the changelog for the release.
+- [ ] Engine team writes the changelog for the release.
 - [ ] Review of the changelogs by engine team developers (for the technical information), & PM (for the feature promotion).
 - [ ] At the end of the phase, if features are missing or are not ready to be integrated into the release, EM should inform the other teams on #ms-releases (internal Slack). The not-ready issues for the sprint should be removed from the Milestone.
 
@@ -33,14 +32,10 @@ Starts: 20XX-XX-XX
 Ends: 20XX-XX-XX
 
 - [ ] Engine team releases the first RC (release candidate) using the prepared changelogs.
-- [ ] Integration and docs organize their preparation for the release.
 - [ ] At the beginning of the Pre-release Phase, the PM on Product discussions about the RC to encourage people to test them. If needed, they also sync with DevRel team for some communication on Discord for the community.
-- [ ] SDKs are updated according to the new Meilisearch release.
-- [ ] Docs team updates the documentation to reflect the changes of the new Meilisearch release.
+- [ ] SDKs are updated according to the new Meilisearch release & Docs team updates the documentation to reflect the changes. Engine team developers should be aware of where they need to intervene for both teams (review PRs, organize meetings to share knowledge about the feature...)
 - [ ] According to feedback and bug reports, the engine team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
 - [ ] Docs team reviews the final changelogs.
-- [ ] DevRel team writes a blog post “What’s new in <<version>>?”.
-- [ ] Review the blog post.
 - [ ] Engine team updates the [Open API file](https://github.com/meilisearch/open-api/blob/main/open-api.yaml). The PR must be reviewed by the PM.
 - [ ] Engine manager updates the [Table of Truth](https://www.notion.so/meilisearch/Table-of-Truth-5b0a2494899c4202b3544034c6942dcc) (internal link) with PRDs, product discussions (for experimental features) and issues (if changed are applied and not related to any PRDs)
 - [ ] Engine team ensures the feature usages described in PRDs are up-to-date with the latest changes made during pre-release.
