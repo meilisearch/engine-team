@@ -9,7 +9,7 @@ Ends: 20XX-XX-XX
 - [ ] EM pins this roadmap issue to the repository.
 - [ ] EM adds the release dates to this roadmap issue in the different sections.
 - [ ] Planification of the next release content (features, improvements, bug fixes). Meeting with the whole engine team to discuss and agree on what we are going to put in the next release.
-- [ ] Creation of PRDs.
+- [ ] Ensure the main features have PRDs.
 - [ ] Engine team opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) and pinged the related teams on it. Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
 - [ ] EM updates the [delivery table of the team](https://www.notion.so/meilisearch/a30db6857c884703b25d6fcd625b97d2?v=a4b5caebc49c4d73a4526c0e51be6f23) (internal link) based on the just created issues. The goal is to clarify the priority of the sprint.
 - [ ] At the end of the Draft phase, the PM and the engine manager review together and agree on a firm version of the next release plan. The PM provides the firm version of the PRDs, which means the developers have enough information to begin the implementation phase.
