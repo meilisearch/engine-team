@@ -30,6 +30,8 @@ Main ones used to build Meilisearch:
 - [**Deserr**](https://github.com/meilisearch/deserr/): a crate for deserializing data, with the ability to return custom, type-specific errors upon failure
 - [**Arroy**](https://github.com/meilisearch/arroy): search for vectors in space that are close to a given query vector, with the interface of [Annoy](https://github.com/spotify/annoy/#full-python-api).
 - [**Obkv**](https://github.com/meilisearch/obkv): a micro key-value store where the key is always one byte.
+- [**Bumparaw-collections**](https://github.com/meilisearch/bumparaw-collections): Collections backed by `bumpalo` and `serde_json::value::RawValue`
+- [**Bbqueue**](https://github.com/meilisearch/bbqueue): A SPSC, lockless, no_std, thread safe, queue, based on BipBuffers
 
 For testing:
 
