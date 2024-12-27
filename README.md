@@ -29,6 +29,7 @@ Main ones used to build Meilisearch:
 - [**Segment**](https://github.com/meilisearch/segment): an unofficial segment analytics client for Rust used by Meilisearch.
 - [**Deserr**](https://github.com/meilisearch/deserr/): a crate for deserializing data, with the ability to return custom, type-specific errors upon failure
 - [**Arroy**](https://github.com/meilisearch/arroy): search for vectors in space that are close to a given query vector, with the interface of [Annoy](https://github.com/spotify/annoy/#full-python-api).
+- [**Obkv**](https://github.com/meilisearch/obkv): a micro key-value store where the key is always one byte.
 
 For testing:
 
