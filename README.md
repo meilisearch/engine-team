@@ -49,6 +49,7 @@ Misc:
 - [**Open API**](https://github.com/meilisearch/open-api): a repository containing the OpenAPI file related to Meilisearch API.
 - [**Meilisearch importer**](https://github.com/meilisearch/meilisearch-importer): a tool to easily import millions of documents into Meilisearch.
 - [**vector-store-relevancy-benchmark**](https://github.com/meilisearch/vector-store-relevancy-benchmark): to test the relevancy of the hybrid search.
+- [**Alberto**](https://github.com/meilisearch/alberto): A program that displays the size of the documents in a Meilisearch database.
 
 Archived repositories:
 
