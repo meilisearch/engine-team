@@ -25,6 +25,7 @@ Ends: 20XX-XX-XX
 - [ ] Engine team writes the changelog for the release.
 - [ ] Review of the changelogs by engine team developers (for the technical information), & PM (for the feature promotion).
 - [ ] At the end of the phase, if features are missing or are not ready to be integrated into the release, EM should inform the other teams on #ms-releases (internal Slack). The not-ready issues for the sprint should be removed from the Milestone.
+- [ ] Define the animal emoji mascot of the release 🤓 Check the already chosen mascots [here](https://www.notion.so/meilisearch/Releases-3d6755c8a27b42b5960a552c06bc49d7) (internal link)
 
 # Pre-release phase (weeks 9-12)
 
