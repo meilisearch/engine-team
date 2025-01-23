@@ -35,12 +35,14 @@ git push -u origin release-vX.Y.Z
 4. Copy/paste this TODO steps on your side
 <details>
 <summary>RC todo</summary>
+- [ ] If doing a patch release, inform people about the coming release (and the reason of the patch) on #ms-release
 - [ ] Launch RC on the GitHub interface</br>
 - [ ] Adapt changelog in the <a href=https://github.com/meilisearch/engine-team/pulls>related PR</a>: make a commit suggestion, or, if too big, open a PR.</br>
 - [ ] Check binaries and Docker images are ready: check the assets are attached to the release + run the Docker image on your machine to ensure it starts correctly (at least)</br>
 - [ ] Manually run <a href=https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml>SDK tests</a> with the new RC (fill in the appropriate Docker tag in the form). Ensure the failing tests are expected</br>
 - [ ] Make a message on #ms-release to announce the new RC: highlight the new changes if impactful for other teams, and link the link of the release.</br>
 </details>
+- [ ] Add changes (with PRs) of the RC to [the in-progress changelogs](https://github.com/meilisearch/engine-team/pulls)
 
 6. Go to the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
 
