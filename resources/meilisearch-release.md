@@ -41,6 +41,7 @@ git push -u origin release-vX.Y.Z
 - [ ] Manually run <a href=https://github.com/meilisearch/meilisearch/actions/workflows/sdks-tests.yml>SDK tests</a> with the new RC (fill in the appropriate Docker tag in the form). Ensure the failing tests are expected</br>
 - [ ] Make a message on #ms-release to announce the new RC: highlight the new changes if impactful for other teams, and link the link of the release.</br>
 </details>
+- [ ] Add changes (with PRs) of the RC to [the in-progress changelogs](https://github.com/meilisearch/engine-team/pulls)
 
 6. Go to the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
 
@@ -87,11 +88,12 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 1. Copy/paste this TODO steps on your side
 <details>
 <summary>Release todo</summary>
+- [ ] If doing a patch release, inform people about the coming release (and the reason of the patch) on #ms-release
 - [ ] Launch the release on the GitHub interface</br>
 - [ ] Check binaries and Docker images are ready: check the assets are attached to the release + run the Docker image on your machine to ensure it starts correctly (at least)</br>
 - [ ] Check the <a href="https://github.com/Homebrew/homebrew-core/pulls">Homebrew PR</a> has been created.</br>
 - [ ] Once everything is deployed, make a message on #ms-release to announce the new release: if doing a non-patch release, ping the integration-team and docs-team since they should deploy their own scope now.</br>
-- [ ] Bring back commits on the release-vX.Y.Z branch into main branch (cf <a href="https://github.com/meilisearch/engine-team/blob/main/resources/meilisearch-release.md#after-the-release-bring-back-changes-to-main">this section</a>)</br>
+- [ ] Bring back commits on the release-vX.Y.Z branch into `main` branch, or into `release-vX.Y.Z` if in pre-release (cf <a href="https://github.com/meilisearch/engine-team/blob/main/resources/meilisearch-release.md#after-the-release-bring-back-changes-to-main">this section</a>)</br>
 </details>
 
 2. Go to the GitHub interface, in the [`Release` section](https://github.com/meilisearch/meilisearch/releases).
