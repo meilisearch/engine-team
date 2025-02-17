@@ -88,7 +88,7 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 1. Copy/paste this TODO steps on your side
 <details>
 <summary>Release todo</summary>
-- [ ] If doing a patch release, inform people about the coming release (and the reason of the patch) on #ms-release
+- [ ] If doing a patch release, inform people about the coming release (and the reason of the patch) on #ms-release</br>
 - [ ] Launch the release on the GitHub interface</br>
 - [ ] Check binaries and Docker images are ready: check the assets are attached to the release + run the Docker image on your machine to ensure it starts correctly (at least)</br>
 - [ ] Check the <a href="https://github.com/Homebrew/homebrew-core/pulls">Homebrew PR</a> has been created.</br>
