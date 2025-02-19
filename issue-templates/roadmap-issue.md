@@ -2,12 +2,8 @@ The purpose of this roadmap is to let anyone know about the different steps in t
 
 # Draft phase (weeks 1-4)
 
-Starts: 20XX-XX-XX
-Ends: 20XX-XX-XX
-
 - [ ] EM creates a new Milestone. This roadmap issue is automatically created.
 - [ ] EM pins this roadmap issue to the repository.
-- [ ] EM adds the release dates to this roadmap issue in the different sections.
 - [ ] Planification of the next release content (features, improvements, bug fixes). Meeting with the whole engine team to discuss and agree on what we are going to put in the next release.
 - [ ] Ensure the main features have PRDs.
 - [ ] Engine team opens issues to add them to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) and pinged the related teams on it. Issues related to bugs could also be added to the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>).
@@ -15,9 +11,6 @@ Ends: 20XX-XX-XX
 - [ ] At the end of the Draft phase, the PM and the engine manager review together and agree on a firm version of the next release plan. The PM provides the firm version of the PRDs, which means the developers have enough information to begin the implementation phase.
 
 # Implementation phase (weeks 5-8)
-
-Starts: 20XX-XX-XX
-Ends: 20XX-XX-XX
 
 - [ ] Engine team implements the planned content of the release according to the PRD. The code changes are merged into the `main` branch. If needed, prototypes will be shared with the users. According to their feedback, we might apply changes to the related feature.
 - [ ] EM checks if a new version of the mini-dashboard has been released (or should be) and if we want to integrate it. If yes, EM opens an issue to ensure the integration of this change into the release.
@@ -28,9 +21,6 @@ Ends: 20XX-XX-XX
 - [ ] Define the animal emoji mascot of the release 🤓 Check the already chosen mascots [here](https://www.notion.so/meilisearch/Releases-3d6755c8a27b42b5960a552c06bc49d7) (internal link)
 
 # Pre-release phase (weeks 9-12)
-
-Starts: 20XX-XX-XX
-Ends: 20XX-XX-XX
 
 - [ ] Engine team releases the first RC (release candidate) using the prepared changelogs.
 - [ ] At the beginning of the Pre-release Phase, the PM on Product discussions about the RC to encourage people to test them. If needed, they also sync with DevRel team for some communication on Discord for the community.
