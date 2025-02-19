@@ -37,7 +37,6 @@ Ends: 20XX-XX-XX
 - [ ] SDKs are updated according to the new Meilisearch release & Docs team updates the documentation to reflect the changes. Engine team developers should be aware of where they need to intervene for both teams (review PRs, organize meetings to share knowledge about the feature...)
 - [ ] According to feedback and bug reports, the engine team modifies the code and fixes bugs as soon as possible. Other RCs are released if necessary.
 - [ ] Docs team reviews the final changelogs.
-- [ ] Engine team updates the [Open API file](https://github.com/meilisearch/open-api/blob/main/open-api.yaml). The PR must be reviewed by the PM.
 - [ ] Engine manager updates the [Table of Truth](https://www.notion.so/meilisearch/Table-of-Truth-5b0a2494899c4202b3544034c6942dcc) (internal link) with PRDs, product discussions (for experimental features) and issues (if changed are applied and not related to any PRDs)
 - [ ] Engine team ensures the feature usages described in PRDs are up-to-date with the latest changes made during pre-release.
 - [ ] Engine team creates/updates a product discussion for the experimental features released during the sprint.
@@ -50,6 +49,7 @@ Release date: 20XX-XX-XX
 The following teams must be pinged: documentation, integration, devrel, and cloud to ensure the deployment of their activities on their side.
 - [ ] Engine team brings changes from `release-vX.Y.Z` branch of Meilisearch into the `main` branch.
 - [ ] PM closes every part relating to the release in the [product repository](https://github.com/meilisearch/product/)
+- [ ] Engine team updates the [Open API file](https://github.com/meilisearch/open-api/blob/main/open-api.yaml). The PR must be reviewed by the PM.
 - [ ] Unpin this current roadmap issue.
 - [ ] EM merges the [changelogs PR](https://github.com/meilisearch/engine-team/pulls).
 - [ ] EM ensures all the issues in the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) are closed or removed from the Milestone (including this issue when everything is done).
