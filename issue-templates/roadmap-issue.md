@@ -39,7 +39,7 @@ Release date: 20XX-XX-XX
 The following teams must be pinged: documentation, integration, devrel, and cloud to ensure the deployment of their activities on their side.
 - [ ] Engine team brings changes from `release-vX.Y.Z` branch of Meilisearch into the `main` branch.
 - [ ] PM closes every part relating to the release in the [product repository](https://github.com/meilisearch/product/)
-- [ ] Engine team updates the [Open API file](https://github.com/meilisearch/open-api/blob/main/open-api.yaml). The PR must be reviewed by the PM.
+- [ ] Engine team updates the [Open API file](https://github.com/meilisearch/open-api/blob/main/open-api.json). The PR must be reviewed by the PM.
 - [ ] Unpin this current roadmap issue.
 - [ ] EM merges the [changelogs PR](https://github.com/meilisearch/engine-team/pulls).
 - [ ] EM ensures all the issues in the [Milestone](https://github.com/meilisearch/meilisearch/milestone/<<milestone_id>>) are closed or removed from the Milestone (including this issue when everything is done).
