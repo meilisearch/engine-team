@@ -17,6 +17,7 @@ In the Meilisearch repository:
 1. Ensure:
 - the version of Meilisearch in the `Cargo.toml` files on the `main` branch has been updated. Use [our automation](https://github.com/meilisearch/meilisearch/actions/workflows/update-cargo-toml-version.yml) if not -> click on `Run workflow`, and fill the appropriate version before validating. A PR updating all the versions in the `Cargo.toml` files will be created.
 - A [GitHub Milestone](https://github.com/meilisearch/meilisearch/milestones) has been opened for this new version.
+- You manually tested the `--experimental-dumpless-upgrade` flag on a DB on the previous Meilisearch minor version (e.g. v1.13 for the v1.14 release) 
 
 2. Make sure you are on the `main` branch and pull the last commits:
 
@@ -35,6 +36,7 @@ git push -u origin release-vX.Y.Z
 4. Copy/paste this TODO steps on your side
 <details>
 <summary>RC todo</summary>
+- [ ] Manually test `--experimental-dumpless-upgrade` on a DB of the previous Meilisearch minor version (e.g. v1.13 for the v1.14 release).
 - [ ] Launch RC on the GitHub interface</br>
 - [ ] Adapt changelog in the <a href=https://github.com/meilisearch/engine-team/pulls>related PR</a>: make a commit suggestion, or, if too big, open a PR.</br>
 - [ ] Check binaries and Docker images are ready: check the assets are attached to the release + run the Docker image on your machine to ensure it starts correctly (at least)</br>
@@ -88,7 +90,9 @@ The steps are the same as for `How to create the first pre-release (or RC i.e. R
 1. Copy/paste this TODO steps on your side
 <details>
 <summary>Release todo</summary>
+- [ ] Manually test `--experimental-dumpless-upgrade` on a DB of the previous Meilisearch minor version (e.g. v1.13 for the v1.14 release).
 - [ ] If doing a patch release, inform people about the coming release (and the reason of the patch) on #ms-release</br>
+- [ ] If doing a patch release, manually test `--experimental-dumpless-upgrade` on a DB of the previous Meilisearch patch version (e.g. v1.13.1 for the v1.13.2 release).
 - [ ] Launch the release on the GitHub interface</br>
 - [ ] Check binaries and Docker images are ready: check the assets are attached to the release + run the Docker image on your machine to ensure it starts correctly (at least)</br>
 - [ ] Check the <a href="https://github.com/Homebrew/homebrew-core/pulls">Homebrew PR</a> has been created.</br>
