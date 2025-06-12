@@ -49,3 +49,4 @@ Done by <TDB: author of the PR> in <TBD: number of the PR as #XXXX>.
 ❤️ Thanks again to our external contributors:
 - [Meilisearch](https://github.com/meilisearch/meilisearch): <TBD: exhaustive list of external contributors of Meilisearch>
 - [Charabia](https://github.com/meilisearch/charabia): <TBD: exhaustive list of external contributors of Charabia>
+- [Heed](https://github.com/meilisearch/heed): <TBD: exhaustive list of external contributors of Heed>
