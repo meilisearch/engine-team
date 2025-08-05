@@ -2,7 +2,7 @@
   <img src="https://raw.githubusercontent.com/meilisearch/integration-guides/main/assets/logos/logo.svg" alt="Meilisearch logo" width="200" height="200" />
 </p>
 
-<h1 align="center">Meilisearch Engine Team</h1>
+<h1 align="center">[ARCHIVED] Meilisearch Engine Team</h1>
 <h5 align="center">This repository is the central reference for developing and maintaining the engine team repositories.</h5>
 
 <h4 align="center">
